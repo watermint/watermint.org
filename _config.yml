@@ -12,7 +12,7 @@ gems:
 title:               watermint.org
 tagline:             "Takayuki Okazaki's note"
 description:         'Travel, camera, photo, and technical things. I work at Dropbox. Thoughts are my own.'
-url:                 'http://watermint.org/'
+url:                 'http://watermint.org'
 #baseurl:             ''
 paginate:            5
 
