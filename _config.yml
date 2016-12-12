@@ -6,7 +6,7 @@ relative_permalinks: false
 
 gems:
   - jekyll-paginate
-  - jekyll-press
+  - jekyll-minifier
 
 # Setup
 title:               watermint.org
@@ -30,5 +30,5 @@ author:
   url:               https://twitter.com/watermint
 
 # Minify
-jekyll-press:
+jekyll-minifier:
   exclude: 'atom.xml'

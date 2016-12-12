@@ -1,2 +1,2 @@
-gem 'jekyll-press'
+gem 'jekyll-minifier'
 
