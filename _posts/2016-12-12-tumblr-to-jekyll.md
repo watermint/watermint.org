@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'TumblrからJekyll + Github Pagesへ'
+date: '2016-12-12T18:30:00+09:00'
 tags:
 - tumblr
 - migration
