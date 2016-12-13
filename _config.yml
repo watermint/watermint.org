@@ -1,34 +1,36 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: false
 
+# Dependencies
 gems:
   - jekyll-paginate
-  - jekyll-minifier
+#  - jekyll-minifier
 
-# Setup
-title:               watermint.org
-tagline:             "Takayuki Okazaki's note"
-description:         'Travel, camera, photo, and technical things. I work at Dropbox. Thoughts are my own.'
-url:                 'http://watermint.org'
-#baseurl:             ''
-paginate:            5
+# Permalinks
+permalink:                pretty
+relative_permalinks:      false
+
+# About
+title:                    watermint.org
+tagline:                  "Takayuki Okazaki's note"
+description:              'Travel, camera, photo, and technical things. I work at Dropbox. Thoughts are my own.'
+
+# Url
+url:                      'http://watermint.org'
+baseurl:                  ''
+paginate:                 5
 
 # Markdown
-markdown:            kramdown
+markdown:                 kramdown
 
 kramdown:
-  input:             GFM
-  hard_wrap:         false
-  syntax_highlighter: rouge
+  input:                  GFM
+  hard_wrap:              false
+  syntax_highlighter:     rouge
 
-# About/contact
+# Contact
 author:
-  name:              Takayuki Okazaki
-  url:               https://twitter.com/watermint
+  name:                   Takayuki Okazaki
+  url:                    https://twitter.com/watermint
 
 # Minify
-jekyll-minifier:
-  exclude: 'atom.xml'
+# jekyll-minifier:
+#   exclude:                'atom.xml'
