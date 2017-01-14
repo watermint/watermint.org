@@ -4,7 +4,7 @@
  <title>watermint.org</title>
  <link href="http://watermint.org/atom.xml" rel="self"/>
  <link href="http://watermint.org/"/>
- <updated>2017-01-14T11:28:29+00:00</updated>
+ <updated>2017-01-14T14:07:42+00:00</updated>
  <id>http://watermint.org</id>
  <author>
    <name>Takayuki Okazaki</name>
@@ -1072,6 +1072,563 @@ Finderでファイル一覧を開くだけで数十秒〜数分かかること�
 &lt;/div&gt;
 
 &lt;p&gt;code on github: &lt;a href=&quot;https://github.com/semester/semester-foundation-fextile&quot;&gt;semester/semester-foundation-fextile&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Product/Service GA/EOL/EOSL dates</title>
+   <link href="http://watermint.org/2015/01/29/product-service-ga-eol-eosl-dates/"/>
+   <updated>2015-01-29T00:00:00+00:00</updated>
+   <id>http://watermint.org/2015/01/29/product-service-ga-eol-eosl-dates</id>
+   <content type="html">&lt;h1 id=&quot;glossary&quot;&gt;Glossary&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GA … General Availability&lt;/li&gt;
+  &lt;li&gt;EOL … End of Life. End of support for enhancement and/or bug fix.&lt;/li&gt;
+  &lt;li&gt;EOSL … End of Service Life. End of support for both bug fix and security fix.&lt;/li&gt;
+  &lt;li&gt;TBD … To be determined.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;programming-languages&quot;&gt;Programming Languages&lt;/h1&gt;
+
+&lt;h2 id=&quot;ruby-mri&quot;&gt;Ruby (MRI)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL&lt;/th&gt;
+      &lt;th&gt;EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1.9.3&lt;/td&gt;
+      &lt;td&gt;2011-10-31&lt;/td&gt;
+      &lt;td&gt;2014-02-23&lt;/td&gt;
+      &lt;td&gt;2015-02-25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.0.0&lt;/td&gt;
+      &lt;td&gt;2013-02-24&lt;/td&gt;
+      &lt;td&gt;TBD (2015-02?)&lt;/td&gt;
+      &lt;td&gt;TBD (2016-02?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.1&lt;/td&gt;
+      &lt;td&gt;2013-12-25&lt;/td&gt;
+      &lt;td&gt;TBD (2015-12?)&lt;/td&gt;
+      &lt;td&gt;TBD (2016-12?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.2&lt;/td&gt;
+      &lt;td&gt;2014-12-25&lt;/td&gt;
+      &lt;td&gt;TBD (2016-12?)&lt;/td&gt;
+      &lt;td&gt;TBD (2017-12?)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After 2.0, expected EOL date is +2 years from GA. Guessing EOSL date is +1 year from EOL.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/yukihiro_matz/status/421152831844806656&quot;&gt;https://twitter.com/yukihiro_matz/status/421152831844806656&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bugs.ruby-lang.org/projects/ruby/wiki/ReleaseEngineering&quot;&gt;ReleaseEngineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;php&quot;&gt;PHP&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL&lt;/th&gt;
+      &lt;th&gt;EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.4&lt;/td&gt;
+      &lt;td&gt;2012-03-01&lt;/td&gt;
+      &lt;td&gt;2014-09-14&lt;/td&gt;
+      &lt;td&gt;2015-09-14&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.5&lt;/td&gt;
+      &lt;td&gt;2013-06-20&lt;/td&gt;
+      &lt;td&gt;2015-06-20&lt;/td&gt;
+      &lt;td&gt;2016-06-20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.6&lt;/td&gt;
+      &lt;td&gt;2014-08-28&lt;/td&gt;
+      &lt;td&gt;2016-08-28&lt;/td&gt;
+      &lt;td&gt;2017-08-28&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://php.net/supported-versions.php&quot;&gt;Supported Versions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;java-se&quot;&gt;Java SE&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;Public EOL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.0&lt;/td&gt;
+      &lt;td&gt;2004-05&lt;/td&gt;
+      &lt;td&gt;2009-10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;2006-12&lt;/td&gt;
+      &lt;td&gt;2013-02&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2011-06&lt;/td&gt;
+      &lt;td&gt;2015-04&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;2014-04&lt;/td&gt;
+      &lt;td&gt;TBD&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Oracle offers premier/extended/sustaining support plans.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/jp/java/eol-135779.html&quot;&gt;http://www.oracle.com/technetwork/jp/java/eol-135779.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;database&quot;&gt;Database&lt;/h1&gt;
+
+&lt;h2 id=&quot;mysql&quot;&gt;MySQL&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;Public EOL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.0&lt;/td&gt;
+      &lt;td&gt;2005-10-15&lt;/td&gt;
+      &lt;td&gt;2012-01-09&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.1&lt;/td&gt;
+      &lt;td&gt;2008-11-27&lt;/td&gt;
+      &lt;td&gt;2013-12-31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.5&lt;/td&gt;
+      &lt;td&gt;2010-12-03&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.6&lt;/td&gt;
+      &lt;td&gt;2013-02-05&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mysql.com/support/eol-notice.html&quot;&gt;http://www.mysql.com/support/eol-notice.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/MySQL&quot;&gt;http://en.wikipedia.org/wiki/MySQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;kvs&quot;&gt;KVS&lt;/h1&gt;
+
+&lt;h2 id=&quot;redis&quot;&gt;Redis&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL/EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.4&lt;/td&gt;
+      &lt;td&gt;2011-10-18&lt;/td&gt;
+      &lt;td&gt;2012-11-29(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.6&lt;/td&gt;
+      &lt;td&gt;2012-10-24&lt;/td&gt;
+      &lt;td&gt;2013-12-11(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2.8&lt;/td&gt;
+      &lt;td&gt;2013-11-22&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3.0&lt;/td&gt;
+      &lt;td&gt;TBD&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No explicit EOL/EOSL policy found. Guessing EOL/EOSL dates from latest update of each version (2.4.18, 2.6.17).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/antirez/redis&quot;&gt;https://github.com/antirez/redis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;server-os&quot;&gt;Server OS&lt;/h1&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://qiita.com/yunano/items/4757f86f9e92bb4f503f&quot;&gt;各OSのリリース日とサポート終了日を表にまとめてみた&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;debian-server&quot;&gt;Debian (Server)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL/EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6.0 (Squeeze) LTS&lt;/td&gt;
+      &lt;td&gt;2011-02-06&lt;/td&gt;
+      &lt;td&gt;2016-02-06&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7.0 (Wheezy)&lt;/td&gt;
+      &lt;td&gt;2013-05-04&lt;/td&gt;
+      &lt;td&gt;TBD&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.debian.org/DebianReleases&quot;&gt;https://wiki.debian.org/DebianReleases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.debian.org/DebianSqueeze#Debian.2FSqueeze_Life_cycle&quot;&gt;https://wiki.debian.org/DebianSqueeze#Debian.2FSqueeze_Life_cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ubuntu-server&quot;&gt;Ubuntu (Server)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL/EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10.04 LTS&lt;/td&gt;
+      &lt;td&gt;2010-04-29&lt;/td&gt;
+      &lt;td&gt;2015-04&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;12.04 LTS (Precise)&lt;/td&gt;
+      &lt;td&gt;2012-04-26&lt;/td&gt;
+      &lt;td&gt;2017-04&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;14.04 LTS (Trusty)&lt;/td&gt;
+      &lt;td&gt;2014-04-17&lt;/td&gt;
+      &lt;td&gt;2019-04&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.ubuntu.com/Releases&quot;&gt;https://wiki.ubuntu.com/Releases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;centos&quot;&gt;CentOS&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL&lt;/th&gt;
+      &lt;th&gt;EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;2004-03-19&lt;/td&gt;
+      &lt;td&gt;2006-06-20&lt;/td&gt;
+      &lt;td&gt;2010-10-31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2005-03-09&lt;/td&gt;
+      &lt;td&gt;2009-03-31&lt;/td&gt;
+      &lt;td&gt;2012-02-29&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2007-04-12&lt;/td&gt;
+      &lt;td&gt;2014-Q1&lt;/td&gt;
+      &lt;td&gt;2017-03-31&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;2011-07-11&lt;/td&gt;
+      &lt;td&gt;2017-Q2&lt;/td&gt;
+      &lt;td&gt;2020-11-30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2014-07-07&lt;/td&gt;
+      &lt;td&gt;2020-Q4&lt;/td&gt;
+      &lt;td&gt;2024-06-30&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/CentOS&quot;&gt;http://en.wikipedia.org/wiki/CentOS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wiki.centos.org/About/Product&quot;&gt;http://wiki.centos.org/About/Product&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;mobile-os&quot;&gt;Mobile OS&lt;/h1&gt;
+
+&lt;h2 id=&quot;reference-1&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fidlee.com/android-support-vs-ios-support/&quot;&gt;Android Support vs iOS Support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ios&quot;&gt;iOS&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL/EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;2012-09-19&lt;/td&gt;
+      &lt;td&gt;2013-02-21(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2013-09-18&lt;/td&gt;
+      &lt;td&gt;2014-06-30(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;2014-09-17&lt;/td&gt;
+      &lt;td&gt;TBD&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No explicit EOL/EOSL policy found. Guessing EOL/EOSL dates from latest update of each version.&lt;/li&gt;
+  &lt;li&gt;iOS 6.x latest update: &lt;a href=&quot;http://support.apple.com/en-us/HT202920&quot;&gt;iOS 6.1.6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;iOS 7.x latest update: &lt;a href=&quot;http://support.apple.com/en-us/HT203014&quot;&gt;iOS 7.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;android&quot;&gt;Android&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Version&lt;/th&gt;
+      &lt;th&gt;GA&lt;/th&gt;
+      &lt;th&gt;EOL/EOSL&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3.2 (API level 13)&lt;/td&gt;
+      &lt;td&gt;2011-06-15&lt;/td&gt;
+      &lt;td&gt;2012-02(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.0 (API level 14/15)&lt;/td&gt;
+      &lt;td&gt;2011-10-18&lt;/td&gt;
+      &lt;td&gt;2012-03-29(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.1 (API level 16)&lt;/td&gt;
+      &lt;td&gt;2012-07-09&lt;/td&gt;
+      &lt;td&gt;2012-10-09(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.2 (API level 17)&lt;/td&gt;
+      &lt;td&gt;2012-11-13&lt;/td&gt;
+      &lt;td&gt;2013-02-11(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.3 (API level 19)&lt;/td&gt;
+      &lt;td&gt;2013-07-24&lt;/td&gt;
+      &lt;td&gt;2013-10-03(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4.4 (API level 20)&lt;/td&gt;
+      &lt;td&gt;2013-10-31&lt;/td&gt;
+      &lt;td&gt;2014-06-19(?)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5.0 (API level 21)&lt;/td&gt;
+      &lt;td&gt;2014-11-12&lt;/td&gt;
+      &lt;td&gt;TBD&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No explicit EOL/EOSL policy found. Guessing EOL/EOSL dates from latest update of each version.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Android_version_history&quot;&gt;http://en.wikipedia.org/wiki/Android_version_history&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Using ELK(ElasticSearch 1.4.2 + Logstash 1.4.2 + Kibana 4 Beta3)</title>
+   <link href="http://watermint.org/2014/12/24/using-elasticsearch-logstash-kibana/"/>
+   <updated>2014-12-24T00:00:00+00:00</updated>
+   <id>http://watermint.org/2014/12/24/using-elasticsearch-logstash-kibana</id>
+   <content type="html">&lt;h1 id=&quot;demonstration-on-elk-on-mac-os-x-yosemite&quot;&gt;Demonstration on ELK on Mac OS X (Yosemite)&lt;/h1&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://www.elasticsearch.org/overview/elkdownloads/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;setup---elasticsearch&quot;&gt;Setup - ElasticSearch&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;unzip elasticsearch-1.4.2.zip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;configure&quot;&gt;Configure&lt;/h3&gt;
+
+&lt;p&gt;Configure elasticsearch to allow connection from Kibana4. Add following two lines into $ELASTICSEARCH_HOME/conf/elasticsearch.yml&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;http.cors.enabled&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;http.cors.allow-origin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/.*/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;startup&quot;&gt;Startup&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./bin/elasticsearch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;test&quot;&gt;Test&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;curl localhost:9200
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;logstash-142&quot;&gt;Logstash 1.4.2&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;unzip logstash-1.4.2.zip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You have to replace elasticsearch libraries inside logstash.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://github.com/elasticsearch/kibana/issues/1629#issuecomment-64172892&lt;/li&gt;
+  &lt;li&gt;logstash contains old version of elasticsearch (1.1.1).&lt;/li&gt;
+  &lt;li&gt;Kibana4 requires elasticsearch 1.4.0 or higher.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;logstash-1.4.2/vendor/jar
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;rm -fr elasticsearch-1.1.1
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;unzip &lt;span class=&quot;nv&quot;&gt;$YOUR_DOWNLOAD_DIR&lt;/span&gt;/elasticsearch-1.4.2.zip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;test-configuration&quot;&gt;Test configuration&lt;/h3&gt;
+
+&lt;p&gt;Save file like below as test-logstash.conf&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;input {
+  file {
+    type =&amp;gt; &quot;apache&quot;
+    path =&amp;gt; &quot;/var/log/apache2/access_log&quot;
+  }
+}
+
+output {
+  elasticsearch {
+    host =&amp;gt; localhost
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;startup-1&quot;&gt;Startup&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./bin/logstash -f &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;-logstash.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;test-1&quot;&gt;Test&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;sudo apachectl start
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;curl localhost
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;kibana-4-beta-3&quot;&gt;Kibana 4 Beta 3&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;unzip kibana-4.0.0-beta3.zip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;startup-2&quot;&gt;Startup&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./bin/kibana
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;test-2&quot;&gt;Test&lt;/h3&gt;
+
+&lt;p&gt;Open http://localhost:5601 with your browser.
+Configure index pattern with time-based events.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check “Index contains time-based events”&lt;/li&gt;
+  &lt;li&gt;Index name or pattern: logstash-*&lt;/li&gt;
+  &lt;li&gt;Choose Time-field name: &lt;code class=&quot;highlighter-rouge&quot;&gt;@timestamp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2014-12-24-kibana.jpg&quot; alt=&quot;Kibana4.png&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
