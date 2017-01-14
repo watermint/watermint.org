@@ -2,7 +2,7 @@
 # Dependencies
 gems:
   - jekyll-paginate
-#  - jekyll-minifier
+  - jekyll-minifier
 
 # Permalinks
 permalink:                pretty
