@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>watermint.org</title>
+ <link href="http://watermint.org/atom.xml" rel="self"/>
+ <link href="http://watermint.org/"/>
+ <updated>2017-01-14T11:28:29+00:00</updated>
+ <id>http://watermint.org</id>
+ <author>
+   <name>Takayuki Okazaki</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>デジタルファイリング - データの整理整頓</title>
+   <link href="http://watermint.org/2016/12/31/digital-filing/"/>
+   <updated>2016-12-31T00:00:00+00:00</updated>
+   <id>http://watermint.org/2016/12/31/digital-filing</id>
+   <content type="html">&lt;p&gt;気がつけばあっというまに2016年の大晦日。昨年の大晦日も大掃除をしたり、ファイルの整理をしたりと今年は整理整頓の一年でした。&lt;/p&gt;
+
+&lt;p&gt;断捨離をしつつ部屋の掃除も一段落しましたが、今年はデジタルデータの整理にも時間をかけています。デジタルデータで特に時間をかけたのが写真の整理です。昨年末から約1年かけて紙などアナログデータと、デジタルデータの整理を続けてきました。&lt;a href=&quot;http://watermint.org/2016/06/01/manage-100k-photos-and-choice-of-storage/&quot;&gt;10万枚を超える写真データの整理とストレージ選び&lt;/a&gt;でもご紹介した通りNASを廃してクラウドストレージに移行しました。&lt;/p&gt;
+
+&lt;p&gt;この1年試行錯誤をして、整理整頓でこだわるべきだと感じたのは次の2点でした。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;なるべく長期保存に耐えるフォーマットに統一する&lt;/li&gt;
+  &lt;li&gt;なるべく階層を減らし、フラットな構造にする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;それぞれどのようにこだわったのか紹介していきます。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;長期保存に耐えるフォーマットへの統一&lt;/h1&gt;
+
+&lt;p&gt;手元に残るうち、自分で作成した一番古いファイルのタイムスタンプを見ると1995年10月31日となっています。当時高校生でしたが、かれこれ20年以上経っています。ほとんどのファイルはまだ変換作業などすれば利用可能ですが、変換せずに閲覧できればファイルの利用価値はぐっと上がります。&lt;/p&gt;
+
+&lt;p&gt;あまり古いドキュメントをいまさら変換するのは面倒ですし特にモチベーションもないのですが、最近つくったドキュメント類はPDF/XまたはPDF/Aで保存し、フォントや埋め込み画像なども含めた格好で保存するようにしています。&lt;/p&gt;
+
+&lt;p&gt;ドキュメント類は上述のようにPDF/Aなどで保存していれば間違いないのですが、少し面倒なのが動画ファイルです。デジカメで撮った動画ファイルが手元にはたくさんありますが、デジカメの機種によってファイル形式はばらばらです。これらは一括で、H.264のようなに今どきの機器でプレビューしやすいフォーマットに変換しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;紙からデジタルデータに&lt;/h2&gt;
+
+&lt;p&gt;紙のデータは10年程度前から積極的にデジタルデータ化しています。クレジットカードの申込書や明細、商品を買ったときに同封されていた注意書きの紙、携帯電話やインターネットサービスの申込書や規約、購入した家電の説明書など。&lt;/p&gt;
+
+&lt;p&gt;同等のデジタルデータがダウンロードできる場合には、ダウンロードして保存しておき、そうでない場合にはスキャナーをつかってPDFデータにしておきます。&lt;/p&gt;
+
+&lt;p&gt;紙媒体ではサイズがまちまちだったり、大きさや重さの制約があり一ヶ所に保存するのは難しいですがデジタルデータにしてしまえばフォーマットを統一して参照することができます。&lt;/p&gt;
+
+&lt;p&gt;紙媒体では契約書など現物が必要なものもありますが、デジタルデータにしておくことで、契約年月日を知りたいとか、契約の種類が何だったかといった確認のためには重宝します。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;なるべく階層を減らし、フラットな構造にする&lt;/h1&gt;
+
+&lt;p&gt;本屋に行くと「整理整頓」「片づけ上手」といったキーワードの本がたくさん見つかります。また、最近では「ミニマル」とか「断捨離」といったキーワードのように捨てることについて注目して説明している記事も多く見られます。&lt;/p&gt;
+
+&lt;p&gt;デジタルファイリングもおそらくこの手法をそのまま採用できるだろうというのが最近の考えです。&lt;/p&gt;
+
+&lt;p&gt;片づけ指南本によると基本的な考えは「よく使うものは手前に置く」というシンプルなルールであると指南されています。デジタルデータでもこれは同様です。ただ単純にフォルダ構成を考えればいいというわけではなく、仕事の進め方も同時に変えていく必要があります。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;最近のファイル&lt;/h2&gt;
+
+&lt;p&gt;よく使うファイルというのはほとんどん場合最近つくったファイルです。&lt;/p&gt;
+
+&lt;p&gt;最近書いている記事のファイル、最近とった写真、進行中のプロジェクトといったファイルが最小の手数で開ける位置にあれば作業効率はバカにならないほど改善します。&lt;/p&gt;
+
+&lt;p&gt;ですから、Macならばファインダー、Windowsならばエクスプローラーを開いてすぐにこれらのファイルやフォルダにたどり着くことができるようにします。&lt;/p&gt;
+
+&lt;p&gt;こういったファイルやフォルダをデスクトップに置いている人も多いでしょう。デスクトップの使い方については少しこだわりがあるのでこちらも紹介させていただきます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;デスクトップの整理&lt;/h2&gt;
+
+&lt;p&gt;個人的にはデスクトップは一時的な作業領域ととらえていて、一日の終わりに完全に空っぽの状態にしています。数年前受講したメール整理法の研修を受けました。この研修では「Inboxを毎日空っぽの状態にしましょう」という整理術を紹介していました。&lt;/p&gt;
+
+&lt;p&gt;このメール整理術ではフォルダに割り振るか、TODOリストに加えるか、スケジュール帳に書き込むか、削除/アーカイブするか行き先はこの4つだけ。この狙いは、まぜこぜになった情報一覧から必要な情報を探すのにいちいち時間がかかってしまう時間ロスを減らすことにあります。&lt;/p&gt;
+
+&lt;p&gt;デスクトップを空っぽにするのも同じ狙いです。たとえばプレゼンテーションスライドを作るときに大量の画像素材を準備するときは、デスクトップへ乱雑に置いていきます。ある程度情報を整理してプレゼンテーションスライドに配置が終わればスライドはプロジェクトのフォルダなどに整理しデスクトップは空っぽにします。&lt;/p&gt;
+
+&lt;p&gt;もし、画像を乱雑にデスクトップへ置いたまま、別のプロジェクトの作業をデスクトップ上で始めてしまうと、どのファイルがプレゼンテーション用のものだったか探すための時間ロスが生まれます。さらにデスクトップを空っぽにするにしても、どれが不要なファイルなのか簡単に区別がつかないのでまた時間ロスがうまれたり、「念のため」ということでそのまま放置してしまうことになりがちです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;最近つくったファイルの置き場所&lt;/h2&gt;
+
+&lt;p&gt;比較的よく利用する最近つくったファイルはWebサイトデザインなどの際によくいわれる「3クリックルール」を想定して整頓するとよいでしょう。チーム作業などのために、共有フォルダの構成が決まっている場合はショートカットなどを活用します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-31-finder.jpg&quot; alt=&quot;開くフォルダの設定&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ファインダーであれば、ファインダーを開いた時に表示されるフォルダを設定できます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;すべてのファイルを一ヶ所に&lt;/h2&gt;
+
+&lt;p&gt;ここまでは今までも似たような整理をしていたのですが、今年はNASや外付けハードディスクなどに保存していたすべてのファイルをDropboxに移行していったのでさらにファイリングを工夫しました。&lt;/p&gt;
+
+&lt;p&gt;これまでバックアップのために外付けハードディスクに保存したりNASに分散管理するなどしていましたが、Dropboxに移行したことで冗長性の確保ついてはすべてDropboxに依存することにしました。これによって、同じファイルを手元で複数管理する必要がなくなったので、バックアップ頻度などバックアップ漏れがないことを意識しなくてよくなりました。&lt;/p&gt;
+
+&lt;p&gt;整理を進めるに当たって、冗長管理をする必要がなくなったのは大きな進歩でした。すべてのファイルが一ヶ所にまとまっていますし、重複したファイルを持つ必要がなくなったので不要なファイルをどんどん削除することができました。ファイル数、フォルダ数が減ったことによってフォルダの見通しがよくなりました。検索も簡単です。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;ファイル総量の制限&lt;/h2&gt;
+
+&lt;p&gt;外付けハードディスクを利用していたときには要領あたりの単価が安いこともあって湯水のようにディスク領域を利用していました。いまはパソコンやDropboxの容量制限もありますが、主にファイル発見への時間ロスを考慮して総量制限をしています。&lt;/p&gt;
+
+&lt;p&gt;ファイルが多すぎると探すための時間を使ってしまいます。ご家庭でもDeep learningなどで自動的に分類されて必要なファイルが探せる時代になればいいのですが、まだそういった使い方は先になりそうですから、時間ロスを減らすにはある程度ファイル総量を制限していくほうが理にかなっていると考えています。&lt;/p&gt;
+
+&lt;p&gt;11月ごろにMacBook Proを買い替えて、内蔵SSDが1TBのモデルにしました。これはファイル総量はだいたい1TBぐらいだと時間ロスも防ぎつつ必要なファイルを保存していくためにちょうどいいのではないかなと考えたためです。&lt;/p&gt;
+
+&lt;p&gt;これまでにデジカメで撮った10万枚の写真総量ではおおよそ2TB強ありました。特にNikon D800で撮影したRAWファイルは1枚当たり50MB前後とかなりの容量でした。ただ、ほとんどの写真は連射写真で個別に再利用することがなかったので、思い切ってすべて削除し、2TB強のデータを170GB程度までに削減しました。&lt;/p&gt;
+
+&lt;p&gt;この制限によって、見返すことも簡単になりましたし、内蔵SSD上ですべて処理できるようになったので昔の写真を含めてすべてブラウズするといった操作もストレスなく快適になりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;フラットに配置する&lt;/h2&gt;
+
+&lt;p&gt;フォルダの見通しをさらによくするために、すべてのフォルダを3〜4クリック程度でたどり着けるように整理しました。フォルダ階層をなるべく減らしてソフトウエア等の制約で必要がない限り4階層までにおさえるようにしました。&lt;/p&gt;
+
+&lt;p&gt;iPhoneやiPadなどのスマートデバイスでもたくさんタップをするよりは縦スクロールをしていくほうが簡単です。近年のパソコンでもタッチパッドなどが使いやすくなりスクロールは非常に簡単です。ですから、ファイルがフラットに並んでいるほうが階層が深くなっているよりもより目的のファイルを簡単に探すことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-31-flatten.jpg&quot; alt=&quot;フォルダ階層&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;五十音順／アルファベット順／日付順などファイルの種類におうじて工夫します。3年前から購読している新聞はすべてPDFでダウンロードができますが、新聞であれば日付順に並んでいると一目瞭然です。あまりファイルが多すぎても探しづらいので月ぐらいでフォルダを作っています。&lt;/p&gt;
+
+&lt;p&gt;すべてのファイルをフラットに配置したことで、過去のファイルを参照することが日常的な作業になりました。NASや外付けハードディスクに保存していた時には、よほどの確信がなければできない作業だったのでこれは大きな変化です。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-9&quot;&gt;整理整頓とデジタルファイリング&lt;/h1&gt;
+
+&lt;p&gt;デジタルファイリングを工夫したことで過去の情報を扱うことが簡単になりました。10年前の家計簿を見直したり、冷蔵庫の製氷機を掃除する方法を調べたり、飲み会の場で友人に3年前の旅行写真を見せたり、2年前の新聞を見直すなど一ヶ所にデジタルデータとして保存していなければなかなか面倒でした。&lt;/p&gt;
+
+&lt;p&gt;この十数年でインターネットで一般的な情報を探したり、現在進行中のニュースを知ることは安価でかんたんにできるようになりました。一方で、自分にかかわる過去の情報は自分自身で整理していないとインターネット以前と同様にかんたんには探すことができません。&lt;/p&gt;
+
+&lt;p&gt;今年はデジタルファイリングが一区切りついたので、来年はこれらの情報を活用する方法を研究していきます。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Go: 複数のReader/Writerに対する帯域幅制御</title>
+   <link href="http://watermint.org/2016/12/15/go-bandwidth-limit-for-multilpe-io/"/>
+   <updated>2016-12-15T00:00:00+00:00</updated>
+   <id>http://watermint.org/2016/12/15/go-bandwidth-limit-for-multilpe-io</id>
+   <content type="html">&lt;p&gt;ネットワークやディスクへの読み書き処理の際、帯域幅制御をしたい場合があります。低優先度の処理などによって主となるビジネスロジックが阻害されないよう制御するといった目的や、一つのサーバ資源で複数のサービスを提供するときに一つのサービスが資源を消費しすぎないようにしたいといった目的があります。&lt;/p&gt;
+
+&lt;p&gt;Goでこのような処理を書きたいとき、ざっと調べてみたところ&lt;a href=&quot;https://github.com/mxk/go-flowrate&quot;&gt;go-flowrate&lt;/a&gt;という実装が見つかりました。&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data.dat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// 100バイト/秒の帯域幅制御付きのラッパーをつくる&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flowrate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NewReader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// 実際の処理&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// ...&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;使い方もシンプルできっちり制御できるのでこれでいいのですが、制御できるのが一つの&lt;code class=&quot;highlighter-rouge&quot;&gt;io.Reader&lt;/code&gt;または&lt;code class=&quot;highlighter-rouge&quot;&gt;io.Writer&lt;/code&gt;のみに対してのみ可能で、複数の&lt;code class=&quot;highlighter-rouge&quot;&gt;io.Reader&lt;/code&gt;や&lt;code class=&quot;highlighter-rouge&quot;&gt;io.Writer&lt;/code&gt;に対しては制御することができません。&lt;/p&gt;
+
+&lt;p&gt;並列処理が必要なプログラムを書いているとちょっとこれではそのまま使えそうにありません。もう少しほかの選択肢を探してもよいのですが、ちょうどいいGoのプログラミング課題ということで新しく実装してみることにしました。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;出来上がり&lt;/h1&gt;
+
+&lt;p&gt;まずはでき上がったライブラリを紹介します。&lt;a href=&quot;https://github.com/watermint/bwlimit&quot;&gt;bwlimit&lt;/a&gt;としてGithub上に公開してあります。利用例は次のようなイメージです。&lt;/p&gt;
+
+&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// 100バイト/秒に制限&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bwlimit&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NewBwlimit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// 複数のReader&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data1.dat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data2.dat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// ラッパーを作成&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fr1&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bwlimit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fr2&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bwlimit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Reader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// 実際の処理&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// ...&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+
+    &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;// すべてのReaderがClose()されるかEOFになるまで待機&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bwlimit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Wait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;まずは帯域幅制御を制御するオブジェクト(上図では&lt;code class=&quot;highlighter-rouge&quot;&gt;bwlimit&lt;/code&gt;)を作り、さらにそれぞれラッパーを作成します。&lt;code class=&quot;highlighter-rouge&quot;&gt;NewBwlimit&lt;/code&gt;の第二引数は帯域幅制限しているときRead/Write処理を待たせるかどうかです。&lt;/p&gt;
+
+&lt;p&gt;あとはラッパーを普通の&lt;code class=&quot;highlighter-rouge&quot;&gt;io.Reader&lt;/code&gt;として扱うだけです。並列処理をしていて、すべてのReaderまたはWriterについて処理が完了したかどうか知りたくなったので待機する&lt;code class=&quot;highlighter-rouge&quot;&gt;Wait()&lt;/code&gt;もつくりました。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;仕組み&lt;/h1&gt;
+
+&lt;p&gt;キューを作る方法などいくつか実装方法を検討しましたが最終的にはかなりシンプルな構造になりました。トヨタ生産方式の本を思い出してヒントを得ました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%AF%E3%83%88%E3%82%BF%E3%82%A4%E3%83%A0&quot;&gt;タクトタイム&lt;/a&gt;という一定時間のリズムを刻んで、各拍子のタイミングで利用可能な帯域を現在有効なReader/Writerで分割して利用するアイデアです。&lt;/p&gt;
+
+&lt;p&gt;たとえばタクトタイムを1秒間に10回に設定したとします。帯域幅設定を1000バイト/秒にした場合、タクトタイム1回あたりに利用可能な帯域幅は100バイトです。有効なReaderが2つであればこの100バイトをわけあって、50バイトずつの読み取りを許可する枠を設定します。実際に、Reader側が読み取るかどうかはわかりませんが、読み取り可能な上限を制御することでこのような流量制御を行っています。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;流量制御と障害防止&lt;/h1&gt;
+
+&lt;p&gt;あるタクトタイムのときに、読み取りが実際に発生せず50バイト分の枠がまるまるある状態で、次のタクトタイムになったとき読み取り可能枠を50 + 50バイト分にはしないようにしました。流量はこれによってすこし減ってしまいますが、意図しない障害を防ぐためです。&lt;/p&gt;
+
+&lt;p&gt;読み取り可能枠が溜まりにたまって一気に転送が行われてしまうと、他のサービスへ影響がでることはもちろん、場合によってはルーターなどのバッファサイズを超えるなどして障害が発生することも考えられます。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-3&quot;&gt;利用例&lt;/h1&gt;
+
+&lt;p&gt;また別の記事として各予定ですが、Dropboxへのファイルアップローダーをいま作っています。このファイルアップローダーで並列してファイルのアップロードをする際に、帯域幅制御をつけたかったのがこのライブラリ作成のモチベーションです。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Disk image file (.dmg) from command line</title>
+   <link href="http://watermint.org/2016/12/14/dmg-and-cli-en/"/>
+   <updated>2016-12-14T00:00:00+00:00</updated>
+   <id>http://watermint.org/2016/12/14/dmg-and-cli-en</id>
+   <content type="html">&lt;p&gt;I prefer .dmg instaed of zip for archiving project data, etc. &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; is handy for refering files, modify contents without extract files to somewhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; can usable as like USB drive. Disk Utility tool can create/update &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; from folder with various options. Options are like encryption, readonly, compression, etc.&lt;/p&gt;
+
+&lt;p&gt;But if you have tens of folders to archive, it’s better to use command line tools.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-encrypted-dmg-file&quot;&gt;Create encrypted &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; file&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hdiutil&lt;/code&gt; is command line version of Disk Utility app. This command can mount/unmount/create/update disk image files. Please see &lt;code class=&quot;highlighter-rouge&quot;&gt;man hdiutil&lt;/code&gt; for more detail.&lt;/p&gt;
+
+&lt;p&gt;Below script is part of my workflow of archiving project files. I’m using encrypted &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; for archive. The script require prepare password file under &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.dmg-password&lt;/code&gt;. Please create and store password for &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; without LF.&lt;/p&gt;
+
+&lt;p&gt;And update permission like &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod 600 $HOME/.dmg-password&lt;/code&gt; to prevent read from other users. This sequence using password and encryption. But it’s not strong enough, reason described below.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;-lt 2 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$0&lt;/span&gt; SRC_DIR DEST_DIR
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;span class=&quot;k&quot;&gt;fi
+
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SRC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;DST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;PWD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.dmg-password&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; ! -e &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;Disk Image password not found
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;2
+&lt;span class=&quot;k&quot;&gt;fi
+
+for &lt;/span&gt;t &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$SRC&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do
+  if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -d &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;Creating: &lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;basename &lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+    cat &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt; |                &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+      hdiutil create          &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -srcfolder &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;       &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -fs HFS+              &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -encryption AES-128   &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -format UDBZ          &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -stdinpass            &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$DST&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.dmg&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;fi
+done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;preset-password-for-dmg-in-key-chain&quot;&gt;Preset password for &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; in Key Chain&lt;/h2&gt;
+
+&lt;p&gt;It’s kind of pain in neck entering password for opening &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; everytime. If you open &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; from Finder.app, the password dialog refuse copy &amp;amp; paste operation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-13-dmg1.png&quot; alt=&quot;Password dialog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is option “remember password in my keychain”. Concept is similar to this.&lt;/p&gt;
+
+&lt;p&gt;The password for disk image is stored in keychain which identified by UUID of &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt;. The UUID is referable by command like below.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;hdiutil isencrypted YOURDISKIMAGE.dmg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now you can store password through &lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;security add-generic-password -a &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;UUID above&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; -D &lt;span class=&quot;s2&quot;&gt;&quot;disk image password&quot;&lt;/span&gt; -s &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;YOUR DISK IMAGE&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.dmg -w &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;PASSWORD OF DISK IMAGE&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Unfortunatelly, there are no option like &lt;code class=&quot;highlighter-rouge&quot;&gt;-stdinpass&lt;/code&gt;. So the password must be passed through command line argument. This mean optential leak through &lt;code class=&quot;highlighter-rouge&quot;&gt;ps&lt;/code&gt; command or shell history.&lt;/p&gt;
+
+&lt;p&gt;By the way, I’m using below script for preset password to disk images.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;-lt 1 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;dmg file]...
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;span class=&quot;k&quot;&gt;fi
+
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PWD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.dmg-password
+
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;FILE &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do
+  &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;hdiutil isencrypted &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 2&amp;gt;&amp;amp;1 | grep uuid | awk &lt;span class=&quot;s1&quot;&gt;'{print $2}'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;BASE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;basename &lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;File: &lt;span class=&quot;nv&quot;&gt;$BASE&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;UUID: &lt;span class=&quot;nv&quot;&gt;$UUID&lt;/span&gt;
+
+  security add-generic-password -a &lt;span class=&quot;nv&quot;&gt;$UUID&lt;/span&gt; -D &lt;span class=&quot;s2&quot;&gt;&quot;disk image password&quot;&lt;/span&gt; -s &lt;span class=&quot;nv&quot;&gt;$BASE&lt;/span&gt; -w &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When opening &lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt; from Finder, operating system ask authorisation of using password by &lt;code class=&quot;highlighter-rouge&quot;&gt;diskimages-helper&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-13-dmg2.png&quot; alt=&quot;Confirmation dialog&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can skip this dialog by &lt;code class=&quot;highlighter-rouge&quot;&gt;-A&lt;/code&gt; option of &lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt; command, but this option authorise for all applications. It’s better not use this &lt;code class=&quot;highlighter-rouge&quot;&gt;-A&lt;/code&gt; option for better security.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ディスクイメージファイル(.dmg)をコマンドラインから</title>
+   <link href="http://watermint.org/2016/12/13/dmg-and-cli/"/>
+   <updated>2016-12-13T00:00:00+00:00</updated>
+   <id>http://watermint.org/2016/12/13/dmg-and-cli</id>
+   <content type="html">&lt;p&gt;Macでたくさんのファイルをひとまとめにするのであればzipで圧縮するよりも、ディスクイメージファイルにしたほうが便利なこともあります。zipだと標準では中身を確認するのに毎回どこかに展開しないといけないですし、ファイルの内容を変更するのも面倒です。zip用のツールを使えばおそらくそれらも解決できると思いますが、個人的にはディスクイメージファイル(.dmg)を使うことの方が多いです。&lt;/p&gt;
+
+&lt;p&gt;ディスクイメージファイルは外付けディスクのようなイメージでマウントして使えます。macOSに標準添付されている「ディスクユーティリティー」ツールを使えばこのイメージファイルを簡単に作ることができます。読み取り専用、読み書き可能、暗号化、圧縮などオプションを選ぶこともできます。&lt;/p&gt;
+
+&lt;p&gt;終了したプロジェクトのファイル一式は.dmgファイルとしてまとめていますが、まとめたいプロジェクトファイルがたくさんあったり、ワークフローを自動化したいとなってくるとコマンドライン操作を覚えると便利です。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;ディスクイメージファイルの作成&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hdiutil&lt;/code&gt;コマンドを使うとディスクイメージファイルの作成や設定変更、ディスクイメージファイルのマウント、アンマウントなどさまざま操作可能です。詳しくは&lt;code class=&quot;highlighter-rouge&quot;&gt;man hdiutil&lt;/code&gt;をご参照いただくとして手元での利用例をご紹介します。&lt;/p&gt;
+
+&lt;p&gt;フォルダ以下にあるサブフォルダをそれぞれ&lt;code class=&quot;highlighter-rouge&quot;&gt;.dmg&lt;/code&gt;として一括変換したい場合に使っているスクリプトです。それぞれ一応暗号化しておこうということで、暗号化用のパスワードを&lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.dmg-password&lt;/code&gt;というファイルにあらかじめ格納してあります。パスワードファイルには最後に改行が入らないようにつくっておいてください。&lt;/p&gt;
+
+&lt;p&gt;あとパーミッションも &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod 600 $HOME/.dmg-password&lt;/code&gt;など他者から読み出せないようにしておきます。そうはいっても、後述しますが一連のプロセスはさほど安全性が高いわけではありませんので「添付ファイルはパスワードつきzipでパスワードは別メールですぐ送信!」とあまり変わらないセキュリティーレベルとお考えいただいていいかと思います。&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;-lt 2 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$0&lt;/span&gt; SRC_DIR DEST_DIR
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;span class=&quot;k&quot;&gt;fi
+
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SRC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;DST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;PWD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.dmg-password&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; ! -e &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;Disk Image password not found
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;2
+&lt;span class=&quot;k&quot;&gt;fi
+
+for &lt;/span&gt;t &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$SRC&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do
+  if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -d &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;Creating: &lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;basename &lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+    cat &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt; |                &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+      hdiutil create          &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -srcfolder &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;       &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -fs HFS+              &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -encryption AES-128   &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -format UDBZ          &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        -stdinpass            &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+        &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$DST&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.dmg&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;fi
+done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;keychain&quot;&gt;ディスクイメージファイルのパスワードをKeyChainにプリセットしておく&lt;/h2&gt;
+
+&lt;p&gt;暗号化しておいたのはいいですが、作成したディスクイメージファイルを開く際にいちいちパスワードを入力するのは面倒です。Finderからダブルクリックしてマウントしようとしたときに聞かれるパスワードダイアログはコピー&amp;amp;ペーストを受け入れてくれないというのもさらに面倒さを増しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-13-dmg1.png&quot; alt=&quot;パスワードダイアログ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;パスワードをキーチェインに記憶させるというオプションがありますが、あらかじめコマンドラインから記憶させておけばいいという発想です。&lt;/p&gt;
+
+&lt;p&gt;ディスクイメージファイルに対するパスワードは一般パスワードとして各ディスクイメージファイルのUUIDと対応して管理されています。このUUIDは&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;hdiutil isencrypted ディスクイメージファイル.dmg
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;というように&lt;code class=&quot;highlighter-rouge&quot;&gt;isencrypted&lt;/code&gt;オプションで知ることができます。キーチェインにパスワードを追加するには&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;security add-generic-password -a &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;上記のUUID&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; -D &lt;span class=&quot;s2&quot;&gt;&quot;disk image password&quot;&lt;/span&gt; -s &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ファイル名&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.dmg -w &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;パスワード&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;というように実行すればよいでしょう。&lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt;コマンドの大変残念な点は&lt;code class=&quot;highlighter-rouge&quot;&gt;hdiutil&lt;/code&gt;の&lt;code class=&quot;highlighter-rouge&quot;&gt;-stdinpass&lt;/code&gt;のように標準入力からパスワードを受け取る手段がどうやらなさそうな点です。&lt;/p&gt;
+
+&lt;p&gt;コマンド引数として実行してしまうと、シェルの履歴に残ったり、&lt;code class=&quot;highlighter-rouge&quot;&gt;ps&lt;/code&gt;コマンドなどでパスワードが漏えいしてしまうケースがあります。このような点から上述のように「添付ファイルはパスワードつきzipでパスワードは別メールですぐ送信!」というセキュリティーレベルとたいして変わらないと思っています。&lt;/p&gt;
+
+&lt;p&gt;さて、上記を合わせて次のようなスクリプトにしてあります。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;-lt 1 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;dmg file]...
+  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;span class=&quot;k&quot;&gt;fi
+
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PWD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.dmg-password
+
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;FILE &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do
+  &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;hdiutil isencrypted &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 2&amp;gt;&amp;amp;1 | grep uuid | awk &lt;span class=&quot;s1&quot;&gt;'{print $2}'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;BASE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;basename &lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;File: &lt;span class=&quot;nv&quot;&gt;$BASE&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;UUID: &lt;span class=&quot;nv&quot;&gt;$UUID&lt;/span&gt;
+
+  security add-generic-password -a &lt;span class=&quot;nv&quot;&gt;$UUID&lt;/span&gt; -D &lt;span class=&quot;s2&quot;&gt;&quot;disk image password&quot;&lt;/span&gt; -s &lt;span class=&quot;nv&quot;&gt;$BASE&lt;/span&gt; -w &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;cat &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;このようにキーチェインにパスワードを設定したファイルを開こうとすると次のようにキーチェインからパスワードを取り出していいか確認されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-13-dmg2.png&quot; alt=&quot;確認ダイアログ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;このダイアログを&lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt;コマンドの&lt;code class=&quot;highlighter-rouge&quot;&gt;-A&lt;/code&gt;オプションでスキップする手段もありますがすべてのアプリケーションに対して許可を出してしまいます。少し面倒ですが、ここは一手間かけておいたほうがいいでしょう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>TumblrからJekyll + Github Pagesへ</title>
+   <link href="http://watermint.org/2016/12/12/tumblr-to-jekyll/"/>
+   <updated>2016-12-12T09:30:00+00:00</updated>
+   <id>http://watermint.org/2016/12/12/tumblr-to-jekyll</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/2013/08/24/wordpress-to-tumblr&quot;&gt;3年ほど前にWordPressからTumblrへ移行しました&lt;/a&gt;。特に大きな問題があったわけではないのですが、最近ソースコードを挿入した記事をいくつか書こうとしたところTumblrのMarkdownではうまく表現され切れない点にすこしストレスを感じていました。表示をあれこれいじっている時間ももったいなくなってきたのでいっそのこと、&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown&quot;&gt;GFM (GitHub Flavored Markdown)&lt;/a&gt;で書けるようなサービスか、システムに移行しようと考え始めました。&lt;/p&gt;
+
+&lt;p&gt;あれこれ調べているうちに、どうやら&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;をつかって&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;へ移行するのがスムーズそうだなと調べ始めて評価し、次の点で問題なさそうだったので移行することにしました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GFMで書ける&lt;/li&gt;
+  &lt;li&gt;既存のURL構成を引き継げる&lt;/li&gt;
+  &lt;li&gt;Tumblrからの記事取り込みもできる&lt;/li&gt;
+  &lt;li&gt;シンプルなテーマがある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;逆に移行に当たってできなくなる機能もあります。たとえばソーシャルメディア連携です。Tumblrでホストしてもらえば、Tumblr上のソーシャルメディアでリブログなど拡散手段があります。ほかには予約投稿やTwitter連携といった機能も使えなくなります。このあたりはトレードオフですが、ソーシャルメディアで拡散していただくよりも、そもそも記事が書きづらくて筆無精になるのであれば優先順位は明らかです。&lt;/p&gt;
+
+&lt;p&gt;ソーシャルメディア連携もあとからIFTTTなど何か使えば実現できるでしょうし、予約投稿も必要になれば決まった時間に&lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt;するよう何か構成を考えればいいだけです。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;移行の効果&lt;/h1&gt;
+
+&lt;p&gt;移行中のあれこれは後述することにしてまずは、移行によってどういったメリットがあったかみてみます。&lt;/p&gt;
+
+&lt;p&gt;WordPressから移行した際にはサイトの速度が劇的に改善しましたが、今回は比較的軽微な差に収まっています。&lt;/p&gt;
+
+&lt;h2 id=&quot;tumblrpagespeed&quot;&gt;TumblrでのPageSpeed結果&lt;/h2&gt;
+
+&lt;p&gt;まずはTumblrでの&lt;a href=&quot;https://developers.google.com/speed/pagespeed/&quot;&gt;PageSpeed&lt;/a&gt;計測結果から。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-12-tumblr-mobile.png&quot; alt=&quot;Tumblr / モバイル&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;モバイル用のスコアは67点。画像サイズが大きいと警告がでているのと、キャッシュ設定などのところで最適化の余地があるとの判定です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-12-tumblr-desktop.png&quot; alt=&quot;Tumblr / デスクトップ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;デスクトップ用のスコアは77点。モバイルと同様に画像が大きいと警告が出ています。いずれにしても体感的にはもっさりした感覚は全くなく、表示速度などの不満は特にありませんでした。&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll--github-pagespagespeed&quot;&gt;Jekyll + Github PagesでPageSpeed結果&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-12-jekyll-mobile.png&quot; alt=&quot;Jekyll + Github Pages / モバイル&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;モバイル用のスコアは72点と少しだけTumblrでの表示より改善しています。これはTumblrのインフラスピードとの差というよりは、採用しているテーマのCSSやJavaScriptの差がほとんどだと考えられます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-12-12-jekyll-desktop.png&quot; alt=&quot;Jekyll + Github Pages / デスクトップ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;デスクトップ用のスコアは77点とTumblrでの結果と同じです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;その他の違い&lt;/h2&gt;
+
+&lt;p&gt;Tumblrではモバイル対応していないテーマを使っていたので、TumblrのUIが優先して表示されています。一方、Jekyllで今回利用した&lt;a href=&quot;http://lanyon.getpoole.com/&quot;&gt;Lanyon&lt;/a&gt;はモバイルフレンドリーなテーマで、今回どちらでも同じLook and Feelでサイトを表示できるようになりました。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;移行&lt;/h1&gt;
+
+&lt;p&gt;移行作業はJekyllの使い方を覚えるところから全部でおおよそ5〜6時間かかったかと思います。Jekyllはかなり活発に開発されているようなのであまりここで細々と手順を書いてもすぐ使いもにならなくなってしまう気がするのでおおまかな流れだけご紹介しておきます。&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll環境の設定&lt;/h2&gt;
+
+&lt;p&gt;最近はこの手のツールを使うときはすべてDockerを使って独立した環境で実行するようにしています。再現性もありますし、手元の環境もシンプルに保てます。Jekyllを使うには既存のDockerイメージを使えば充分ですが、いくつかテーマを試したりしているうちに依存関係のあるライブラリをまとめてイメージとして持っていたほうが便利だったので次のような内容の&lt;code class=&quot;highlighter-rouge&quot;&gt;Dockerfile&lt;/code&gt;を作っています。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM jekyll/jekyll:builder
+
+RUN apk add --no-cache --virtual build-dependencies build-base
+RUN apk add --no-cache libxml2-dev libxslt-dev
+RUN apk add --no-cache ruby-dev curl-dev zlib-dev yaml-dev
+RUN gem install nokogiri
+RUN gem install minima
+RUN gem install jekyll-import
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-import&lt;/code&gt;は後述のTumblrから記事を取り込んだときに使ったものです。この&lt;code class=&quot;highlighter-rouge&quot;&gt;Dockerfile&lt;/code&gt;をビルドしておきます。たとえば&lt;code class=&quot;highlighter-rouge&quot;&gt;site&lt;/code&gt;ディレクトリ以下につくっていくならこんな感じにコンテナを実行して、テンプレートを作ったり&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-import&lt;/code&gt;を実行したりできます。&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;docker run --rm -i &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;/site:/srv/jekyll -p 4000:4000 -t &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ビルドしたときのタグ名&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今回はあれこれテーマをダウンロードし、&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-import&lt;/code&gt;でTumblrから記事をざっくり取り込んで表示確認をしながらレイアウトを決定しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;tumblr&quot;&gt;Tumblrからのインポート&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://import.jekyllrb.com/docs/tumblr/&quot;&gt;jekyll-importのTumblrについての記事&lt;/a&gt;にコマンドが書かれていますのでこれを実行します。
+移行といっても今回はTumblrで書いた記事が12記事しかなかったので、ある程度の部分は詳しく調べずに手作業でファイルを修正していくというスタイルで解決しました。&lt;/p&gt;
+
+&lt;p&gt;今回実行した際は次のように実行しました。&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -rubygems -e &lt;span class=&quot;s1&quot;&gt;'require &quot;jekyll-import&quot;;
+    JekyllImport::Importers::Tumblr.run({
+      &quot;url&quot;            =&amp;gt; &quot;http://(TumblrのID).tumblr.com&quot;,
+      &quot;format&quot;         =&amp;gt; &quot;html&quot;,
+      &quot;grab_images&quot;    =&amp;gt; true,
+      &quot;add_highlights&quot; =&amp;gt; true,
+      &quot;rewrite_urls&quot;   =&amp;gt; true
+    })'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;最初formatはMarkdown(md)を指定していましたが、うまく記事が取りこめなかったのでhtmlで取り込み、あとで手動でMarkdownに変換しました。&lt;/p&gt;
+
+&lt;p&gt;Tumblrでは記事のURLが &lt;code class=&quot;highlighter-rouge&quot;&gt;/post/(記事ID)/(記事タイトル)&lt;/code&gt;というフォーマットでしたが、Jekyllでは&lt;code class=&quot;highlighter-rouge&quot;&gt;/(年)/(月)/(日)/(記事タイトル)&lt;/code&gt;となるので変換が必要です。&lt;code class=&quot;highlighter-rouge&quot;&gt;rewrite_urls&lt;/code&gt;で相当するアドレスにリダイレクトするファイルを作ってくれるので、リンクはそのまま維持できます。&lt;/p&gt;
+
+&lt;p&gt;ただ困ったことに生々されたリダイレクト用の&lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;では&lt;code class=&quot;highlighter-rouge&quot;&gt;/(年)-(月)-(日)-(記事タイトル)&lt;/code&gt;へのリダイレクトになっていてうまく動きません。あれこれ探すのも面倒だったのでここは手動で直してしまいました。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grab_images&lt;/code&gt;という設定があり画像をもってきてくれそうな印象がありましたが、これもうまく動かなかったので手作業で画像をもってきたり、手元に保存してあったものを使ったりして再構成しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;テーマ選び&lt;/h2&gt;
+
+&lt;p&gt;いくつかサンプルを見ながら選びましたがシンプルなものがよかったのでLanyonにしました。ほかにもシンプルなデザインのものはありましたが、Lanyonは欲しい機能がおおむね入っていることと、CSSやJavaScriptを含めても全体の構成がシンプルで全体が見渡しやすいことが気に入りました。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-4&quot;&gt;切り替え&lt;/h1&gt;
+
+&lt;p&gt;できあがったJekyllのページ一式をGithub Pagesへプッシュし、あとはCloudFlareでDNSの切り替えをすれば終了です。&lt;/p&gt;
+
+&lt;p&gt;Jekyllも開発スピードが速そうなので、開発についていくとしたらかなり大変そうです。ただでき上がったサイトはかなりシンプルなHTML、CSS、JavaScriptと画像ファイルだけで構成されているのでセキュリティー上の理由などで更新しなければいけないケースはかなり少ないと思います。&lt;/p&gt;
+
+&lt;p&gt;そういった意味では、一度環境ができ上がってしまえばTumblrでプレビューにあれこれ悩みながら記事を書くよりも手元の環境で確実なプレビューを見てから公開できるワークフローをつくったほうがより生産性が高そうだということで今は満足しています。&lt;/p&gt;
+
+&lt;p&gt;画像を含めたオーサリングのワークフローをつくったり、プレビューから予定投稿などまでいろいろ作り込みたいところですがそのあたりはまた今度じっくり作り込んでみることにします。&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dropbox Business utilities written in Golang</title>
+   <link href="http://watermint.org/2016/10/27/dropbox-business-utilities-written-in-golang-ja/"/>
+   <updated>2016-10-27T08:30:29+00:00</updated>
+   <id>http://watermint.org/2016/10/27/dropbox-business-utilities-written-in-golang-ja</id>
+   <content type="html">&lt;p&gt;今夏ごろからDropbox Business向けのツールをちょこちょこと開発しています。&lt;a href=&quot;https://www.dropbox.com/developers&quot;&gt;Dropbox Business API&lt;/a&gt;は一般的なOAuth2を使った認証と、HTTPでのAPIのためたいていのプログラミング言語で簡単に扱えます。また、DropboxからPython、Ruby、Java、JavaScript、.NET、Objective-C、SwiftなどSDKもリリースされているのでこれらを使えばより簡単です。&lt;/p&gt;
+
+&lt;p&gt;ちなみにこれほど多くのSDKをメンテナンスするのはかなり手間ですが、それを解消するために&lt;a href=&quot;https://github.com/dropbox/stone&quot;&gt;Stone&lt;/a&gt;というオープンソースが公開されています。StoneはAPI仕様記述からSDKを生成するツールで一度この仕様記述をメンテナンスしていけばSDKは自動生成できます。Dropbox APIの仕様についても同様に&lt;a href=&quot;https://github.com/dropbox/dropbox-api-spec&quot;&gt;Stoneでの仕様記述&lt;/a&gt;があり、公開されているSDKは自動生成されたものをベースにしています。&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;つくったツール&lt;/h1&gt;
+
+&lt;p&gt;作成したのは下記二つのツールです。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://github.com/watermint/dcfg&quot;&gt;dcfg&lt;/a&gt; … G Suiteのグループで管理されている組織、グループ構成をDropbox Businessチーム用に同期する&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/dreport&quot;&gt;dreport&lt;/a&gt; … Dropbox Businessチームに関するメンバー一覧などをレポートとしてCSVで出力する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;いずれもCLIツールでシステム管理者が利用する想定のものです。ただ、昨今はシステム管理といってもWindowsだけでなくMacなど様々なシステム環境があります。このように利用用途からかんがえて複数プラットホームで利用できたほうが便利なので、個人的には初めてとなるGolangを採用してみました。&lt;/p&gt;
+
+&lt;h1 id=&quot;golang&quot;&gt;はじめてのGolang&lt;/h1&gt;
+
+&lt;p&gt;一番最近よく使っていたプログラミング言語はScalaだったので、カルチャーギャップというか、プログラミング言語がもつ信念のようなところに大きな差があって少し戸惑いました。&lt;/p&gt;
+
+&lt;p&gt;Scalaのようなオブジェクト指向的にも関数型的にもかけるプログラミング言語の直後ということもあって、Golangの書き方はややまどろっこしく感じます。ただこのまどろっこしさも次第に慣れていくことで、また考え方がわかってきたことでさほど気にならなくなってきました。&lt;/p&gt;
+
+&lt;p&gt;どこに書いてあったかソースは失念しましたがたとえば、「関数のなかで、計算量のオーダーが O(1) → O(n)のように変わるような書き方はあえてさせないことで、関数を使う側がどういうオーダーの計算量を常に意識させるようにしている」というような説明がありました。Golangのテストフレームワークがassertをあえて実装していない、といったこともそうですが、プログラミング言語やフレームワークで様々なヒューマンエラーを減らしていこうとする考え方とはまた違う思想を感じます。&lt;/p&gt;
+
+&lt;p&gt;この考え方を真に受けてコードを書いていったので、でき上がったプログラムはにたようなforループやif分岐がたくさんでき上がりました。今回、コードをかくに当たってあまり他の方のコードを読んだりしなかったので本流とはだいぶ外れているかもしれません。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-1&quot;&gt;パッケージ管理&lt;/h1&gt;
+
+&lt;p&gt;Golangで戸惑ったのがパッケージ管理です。Goのプログラムは&lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt;環境変数で指定したディレクトリ以下にすべての依存ファイル、そして自分のプロジェクトファイルも置いていくという方式です。&lt;/p&gt;
+
+&lt;p&gt;自分のプロジェクトをたとえば、github.com/watermint/dcfg で公開する予定ならば下図のように &lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt;以下に置いていきます。外部ライブラリたとえば、github.com/dropbox/dropbox-sdk-go-unofficialを使うのであればこれらも&lt;code class=&quot;highlighter-rouge&quot;&gt;go get&lt;/code&gt;コマンドを経由して同様に&lt;code class=&quot;highlighter-rouge&quot;&gt;GOPATH&lt;/code&gt;以下に配置します。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$GOPATH / src / github.com / watermint / dcfg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;ひょっとすると、Goの考え方でAPIは一度公開したならば同じ名前で同じように使えるべき。という信念があるのかもしれません。
+この方式で困るのは複数プロジェクトを進行しているときに、異なるバージョンのライブラリを利用したいや、ライブラリのバージョンをしばらく固定しておきたいときにはやっかいです。&lt;/p&gt;
+
+&lt;p&gt;また別の環境でビルドする際にも依存するライブラリの管理が煩雑になります。こういった問題に対しRubyであればgem、Javaなどではmaven、gradle、sbtなどパッケージ管理は様々あり、これらで管理するのが当たり前という風なイメージを持っています。Golangでも同じようなものを探してみましたが、いまひとつこれといったものがどれなのかわかりませんでした。&lt;/p&gt;
+
+&lt;p&gt;これも今回はあまり細かく調べずに、&lt;a href=&quot;https://github.com/Masterminds/glide&quot;&gt;glide&lt;/a&gt;というツールを利用しました。glideをつかうと、依存するライブラリ郡を自分のプロジェクトフォルダ以下の&lt;code class=&quot;highlighter-rouge&quot;&gt;vendor&lt;/code&gt;というフォルダにまとめてくれます。バージョン指定も可能ですし、一括してライブラリ郡をダウンロードするなど細々面倒を見てくれます。&lt;/p&gt;
+
+&lt;p&gt;また今回つかったdropbox-go-sdk-unofficialは名前の通りアンオフィシャルSDKで、まだ活発に大規模なリファクタリングがおこなわれていてバージョンを固定しないとまともに開発できない。。という現状もありglideによるパッケージ管理はもっとはやく導入しておけばと悔やまれました。&lt;/p&gt;
+
+&lt;p&gt;おそらく他のツールでも同様によしなに準備してくれるのだと思います。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-2&quot;&gt;ビルド&lt;/h1&gt;
+
+&lt;p&gt;本格的にコーディングを始める前に、ビルド環境だけは念入りに準備することにしました。ビルド環境のOSのバージョンが違うことで何か問題がでたりするとかなりの時間を浪費してしまいますし、いろんなところで新しくビルドしようとおもったときにも手間がかかります。&lt;/p&gt;
+
+&lt;p&gt;今回はご多分に漏れず&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;を使っています。Dockerfileを用意しておいて、Dockerコンテナ上でビルドをしてそのバイナリを手元環境でテストするというワークフローを確立しました。&lt;/p&gt;
+
+&lt;p&gt;ついでにTravis CIでもテストが自動的に実行されるようにしておきました。テストカバレッジなども集計するという流れを自動化しておくこともできますが、これもなかなか情報が分散していて地味に手間のかかる作業でした。&lt;/p&gt;
+
+&lt;p&gt;これから環境を用意されようと思われる方は下記の.travis.ymlをご参考にしていただければと思います。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;language&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;1.7&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;tip&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;before_install&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go get golang.org/x/tools/cmd/cover&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go get github.com/modocache/gover&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go get github.com/mattn/goveralls&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go get github.com/Masterminds/glide&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;glide install&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go list -f '{{if len .TestGoFiles}}&quot;go test -coverprofile={{.Dir}}/.coverprofile {{.ImportPath}}&quot;{{end}}' $(glide novendor) | xargs -L 1 sh -c&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;gover&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;after_success&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;goveralls -coverprofile=gover.coverprofile -service=travis-ci -repotoken $COVERALLS_TOKEN&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/dcfg/blob/v1.3.9/.travis.yml&quot;&gt;https://github.com/watermint/dcfg/blob/v1.3.9/.travis.yml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ここで登場するcover、gover、goverallsはカバレッジを取得、集約するためのものです。よく見るとgoverは前職の同僚が作ったものですね。こんなところでお目にかかるとは誇らしいものです。&lt;/p&gt;
+
+&lt;p&gt;ところで&lt;code class=&quot;highlighter-rouge&quot;&gt;script:&lt;/code&gt;のセクションはややトリッキーな書き方をしています。これもあれこれ情報を集めながら試行錯誤したものでこれでいいのか微妙なところですがひとまず動作しているのでこれで。。&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;go list -f '{{if len .TestGoFiles}}&quot;go test -coverprofile={{.Dir}}/.coverprofile {{.ImportPath}}&quot;{{end}}' $(glide novendor) | xargs -L 1 sh -c&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;go test&lt;/code&gt;というのでカバレッジがとれますが残念ながら&lt;code class=&quot;highlighter-rouge&quot;&gt;go test&lt;/code&gt;では1つのソースファイルについてのみテストとカバレッジ測定となってプロジェクト全体ではとれません。そこで、ソースコードひとつずつについて&lt;code class=&quot;highlighter-rouge&quot;&gt;go test&lt;/code&gt;を実行してカバレッジデータのファイルを個別につくってあとで結合するという力技です。&lt;/p&gt;
+
+&lt;h1 id=&quot;retrospective&quot;&gt;Retrospective&lt;/h1&gt;
+
+&lt;p&gt;今回はCLIツールを作りましたが、利用シーンを考えるとGUIツールもぜひ作ってみたいところです。
+GolangでのGUIライブラリはまだこれといった決定打がないようで、ひょっとしたらJavaでつくるか、SwiftをつかってiOSアプリにしてしまうほうがいいのかもしれません。&lt;/p&gt;
+
+&lt;p&gt;今回CLIとは別に&lt;a href=&quot;https://github.com/gin-gonic/gin&quot;&gt;Gin&lt;/a&gt;というライブラリを使ってWebサーバを立ち上げるパターンも試作してみました。Play framework等と比べればまだまだツールサポートなども弱いので生産性に課題を感じましたがしっかり作り込めばGUIでつくるよりも将来性がありそうです。&lt;/p&gt;
+
+&lt;p&gt;このあたりはまた次回の研究課題です。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>10万枚を超える写真データの整理とストレージ選び</title>
+   <link href="http://watermint.org/2016/06/01/manage-100k-photos-and-choice-of-storage/"/>
+   <updated>2016-06-01T08:30:32+00:00</updated>
+   <id>http://watermint.org/2016/06/01/manage-100k-photos-and-choice-of-storage</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/2016-06-01-photo1.jpg&quot; alt=&quot;ハードディスク&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;最初にデジタル一眼レフを買ったのがちょうど10年前。カメラも、ハードディスクも順調に増え場所も手間もかかるようになってしまったので写真の整理法から、ストレージの使い方まで半年がかりでやり方をかえていきました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;事前準備&lt;/h2&gt;
+
+&lt;p&gt;最初はすこし軽い気持ちで始めましたが、結果的にはかなり大掛かりな作業になってしましました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;データ容量、内容の確認&lt;/li&gt;
+  &lt;li&gt;ファイル形式の統一&lt;/li&gt;
+  &lt;li&gt;重複の排除&lt;/li&gt;
+  &lt;li&gt;ファイルの分類&lt;/li&gt;
+  &lt;li&gt;新しいストレージへの移行
+最初から最終形態を設計／想定していた訳ではありませんが、随時微調整しながら進めています。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;整理を始める前のデータと容量&lt;/h2&gt;
+
+&lt;p&gt;ハードディスクを整理してみると、ハードディスクはNASに搭載しているものもあわせると15本、NASは2台、総容量は30TBと一般家庭にしてはかなりの容量です。それぞれのディスクのおおよそ6〜7割は使用中で単純計算で18TBものデータが存在していました。&lt;/p&gt;
+
+&lt;p&gt;ただそのほとんどはバックアップ用途の重複保存です。同じデータを最低2本以上のディスクに保存することにしていたので、単純計算でデータ容量は9TB程度です。
+またさらに、写真管理ソフトの形式によって重複している部分もありました。写真の管理は2001年ごろからはiPhoto、2007年ごろからはAperture、2013年からはCapture Oneを使っていました。2013年は少しだけLightroomも使っていたのでこのデータもありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://watermint.org/2013/08/26/workflow/&quot;&gt;Apertureのサポート終了に伴う移行&lt;/a&gt;では最終的に、Capture Oneに落ち着きましたが慣れの問題もあり最終的にCapture Oneに一本化できたのは2014年後半でした。この間、データはAperture形式とCapture One形式の二通りのライブラリとして管理していました。&lt;/p&gt;
+
+&lt;p&gt;ここまでの見積もりメタデータやサムネイルファイル、重複などををおおまかに調査したところ最終的なファイルサイズはおおよそ3〜4TB程度になると見積もりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;整理を始める前の写真&lt;/h2&gt;
+
+&lt;p&gt;もう一つの問題点は、簡単には狙った写真が見つけられないということです。連射した写真や似たような構図の写真が大量にあると、毎回無視できないほど時間がかかります。多いときには1日に1,000枚以上撮影していることもあり写真を見直すことがおっくうになってきますが、そのように大量に撮影しているときにいい写真があるのでまたもどかしい気持ちになります。&lt;/p&gt;
+
+&lt;p&gt;たとえば3年前の旅行で撮った写真を加工して印刷したい、といったときに該当のRAWデータを見つけるのは結構な手間がかかりました。1週間の旅行で5,000〜7,000枚程度の枚数にはなるので、ApertureやCapture Oneのライブラリを開くだけでもしっかりと時間がかかります。&lt;/p&gt;
+
+&lt;p&gt;撮影当時にApertureやCapture Oneで調整した結果からさらに編集したいとき、目的のApertureライブラリやCapture Oneセッションを探し出すというのはかなりの労力がかかりました。仕方なく、現像済みJPEGから再調整するということもありましたがせっかくRAWで保存してあるのに活用できないのはもったいない気がします。&lt;/p&gt;
+
+&lt;p&gt;このように整理を始める前はデータも、写真自体も管理がばらばらで再利用するのがとにかく面倒で、一念発起しないとできない。という状況でした。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;目標と方針を決める&lt;/h2&gt;
+
+&lt;p&gt;写真を撮るのは楽しいですが、整理するのは面倒だと感じています。写真は趣味で、ビジネスとして撮っているわけではないので、整理に割ける時間も限られます。趣味の範囲という前提に立つと「写真を撮るのも、後から見ることも楽しい」ぐらいが目標となり、このための雑務を減らし、秩序をつくっていくことがアクションとして考えられます。&lt;/p&gt;
+
+&lt;p&gt;この目標実現のために最初に決めた方針は次のようなことでした。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;資産として再利用できるようにする。&lt;/li&gt;
+  &lt;li&gt;フラットな構造に管理する。たとえば、複数のディスクに分散しないようにする。&lt;/li&gt;
+  &lt;li&gt;すでに機械化されている、または将来機械化されそうな作業をしなくて良いようにする。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nas&quot;&gt;NASからの移行&lt;/h2&gt;
+
+&lt;p&gt;まずは重複を排除しつつ、データを一ヶ所にまとめることにしました。3年まえからほとんどのデータは、NASのDrobo 5N (実効容量9TB)にまとめていました。このNAS上にすべてのディスクにあるデータをまとめ、整理していくのが順当ではあったのですが一つ問題がありました。&lt;/p&gt;
+
+&lt;p&gt;Mac OS XはNASへのアクセス性能がきわめて悪いことです。データ転送などある程度まとまった処理はさほど悪くないのですが、ファイル一覧などファイルを探す処理が極端に遅いのです。
+Finderでファイル一覧を開くだけで数十秒〜数分かかることもあり作業に大きな支障がありました。通常、NASをMac OS Xから参照するとAFP (Apple File Protocol)で接続されます。これを、SMB2というプロトコルに変更すると若干改善するように見えるのですが、それでも体感速度はさほど変わりませんでした。Drobo 5NではmSSDを使ったキャッシュを搭載することができますが、このキャッシュを搭載してみてもさほど体感上変わりはありませんでした。&lt;/p&gt;
+
+&lt;p&gt;かわりに、Mac OS X上のVirtualBoxにUbuntu Trustyをインストールし、SMBクライアントでマウントしてみると見違えるように高速に動作し原因はMac OS Xの問題とほぼ限定されました。実際に、Mac OS Xからrsyncなどのコマンドでファイル転送してもシステムコールレベルでNAS側に制御ファイルを作成したり削除しているような振るまいが見られこのオペレーションが低速につながっていると想像できました。&lt;/p&gt;
+
+&lt;p&gt;作業をUbuntu上で行うことも選択肢にはありましたが、Capture OneやApertureなどMac OS X上のアプリケーションも利用する必要があることから、Drobo 5Nに集約することはあきらめて6TBのハードディスクを新たに購入しここにすべてのデータを集約することにしました。&lt;/p&gt;
+
+&lt;p&gt;Drobo 5Nの純粋な性能と比べても、ネットワーク越しのアクセスとUSB 3.0の直接接続では大きくスループットも違いがでます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;データのコピーとデータ形式の統一&lt;/h2&gt;
+
+&lt;p&gt;データのコピーは基本的にすべてrsyncコマンドを使いました。信頼性があるのと、中断せざるを得ないときにも停止して安全に再開することもできます。Mac OS Xの性能問題もあり、コピーは基本的にUbuntu上で行いました。それでもDrobo 5Nからの転送はおおよそ1〜2週間程度かかったと思います。&lt;/p&gt;
+
+&lt;p&gt;最初にApertureライブラリを転送しました。Capture OneにApetureライブラリをインポートする機能もあるので、こういった機能も使いつつJPEG、TIFF、RAWファイルなどの元データとメタデータをApertureに依存しない形式に変換していきました。この作業も1〜2週間かかったと思います。&lt;/p&gt;
+
+&lt;p&gt;Capture OneはEIPというファイル形式で出力することができます。EIPはRAWデータ、メタデータ、調整データをすべてひとつのファイルにまとめたものです。EIPファイルさえあれば、調整データもメタデータも含め写真1枚ずつ開いて加工することができます。EIPファイルの実態はZIPファイルで、中にはRAWデータや調整データを含むファイルが格納されています。&lt;/p&gt;
+
+&lt;p&gt;Apertureのライブラリ、Lightroomのライブラリ、Capture Oneのライブラリはそれぞれライブラリとして一つ大きなパッケージとして管理するので操作が高速であったり、アルバム管理など便利ですがEIPファイルのように1枚一枚別々に管理できるとApertureやCapture Oneなど専用ソフトでなくても操作できるので、後述の重複排除など操作では重宝します。&lt;/p&gt;
+
+&lt;p&gt;このように、Capture OneのデータはEIP、ApertureのデータはRAW + XMPファイルとしてエクスポートして一ヶ所にまとめることができました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;重複排除&lt;/h2&gt;
+
+&lt;p&gt;重複排除には&lt;a href=&quot;http://macpaw.com/gemini&quot;&gt;Gemini&lt;/a&gt;というアプリケーションを利用しました。ファイル数が多すぎるとUI操作がもたつくこともありますが、操作がわかりやすいのとファイルをプレビューしながら操作できる点が大きなメリットです。&lt;/p&gt;
+
+&lt;p&gt;Geminiでおおまかに重複排除したあとは自作のスクリプトで重複排除を進めました。RAWから現像したファイルはいったん削除することにしたので、EXIFデータを見ながら日時、カメラなどのデータが一致するJPEGファイルを削除。他には、前述のEIPファイルではZIPファイル中にRAWファイルがあるため、Gemini等の重複排除では期待通り重複を排除できないためEIPファイル中のRAWファイルデータを読み出して比較しながら重複排除するスクリプトなどを作成しました。&lt;/p&gt;
+
+&lt;p&gt;99%以上のファイルは有効なEXIFデータが入っているのですが、かなり古いデジカメで撮影した写真などデータが含まれていなかったり、EXIFなどのデータが破損している場合があったのでこういったファイルはそれぞれ目視確認しつつ作業を進めました。&lt;/p&gt;
+
+&lt;p&gt;このような作業を繰り返し重複排除が終わったときには13万枚程度の写真ファイルが整然と並びようやく全貌が明らかになりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;分類する&lt;/h2&gt;
+
+&lt;p&gt;写真をおおまかに2つのグループにわけることにしました。1つは、何度も見返したい写真。もうひとつはそれ以外の写真のグループです。&lt;/p&gt;
+
+&lt;p&gt;何度も見返したい写真は比較的しっかりバックアップがとられるように管理したい写真で、それ以外の写真は最悪なくなっても気にしないといったポリシーで管理することにしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;グループ分けの考え方&lt;/h2&gt;
+
+&lt;p&gt;「すでに機械化されている、または将来機械化されそうな作業をしなくて良いようにする。」という方針から、写真のレーティングで機械化されそうなところは機械にたよることにしました。&lt;/p&gt;
+
+&lt;p&gt;たとえば写真のなかの顔認識についてはかなり技術的に進んでいて、特定の人が写っている写真を撮り出すということは今日たやすい操作です。この画像認識技術はまだ多少精度の問題もあります。生物や植物の図鑑をつくるような目的である程度厳密に分類をするといった用途には向きません。今回の目的は必要な写真をすぐ見つけたい。というぐらいですから、多少違う写真がピックアップされたところであまり影響ありません。&lt;/p&gt;
+
+&lt;p&gt;Siriのようなアシスタントに「AさんとBさんが写っている去年の集合写真をさがして」とか「Cさんが写っている沖縄の海辺の写真を探して」といったら数枚がピックアップされ、ピックアップされた数枚から「ピンボケしていないものだけ」といった絞り込みもそう遠くない未来に実現するでしょう。&lt;/p&gt;
+
+&lt;p&gt;すでにGoogle Photosやflickrでも機械学習などの成果から「建築物」とか「食べ物」と自動的に分類したり、GPSデータがなくても建造物などから場所を推測してタグ付けするといったサービスが提供されていますのでこういった分類は手作業で時間をかける必要はありません。&lt;/p&gt;
+
+&lt;p&gt;今回の写真整理では利用しませんでしたが顔と名前、人のつながり、時間や場所とイベントといった付加情報のデータベースについていえばfacebookが圧倒的に大きなデータベースを持っているので、facebookが面白い提案をしてくるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;一方すぐに機械化できないと思うのは個人的な体験による重要度の重みづけです。何の変哲もない風景写真だが自分には印象深いとか、ピンボケしているが人生の大きなターニングポイントのタイミングを象徴するとかデータとして記録していないし、定型的な表現の難しい体験による重要度はいかに機械化による分類はやや難しいでしょう。facebookやtwitterなどに記録されたイベント、発言など複合的に機械学習することでおもしろい写真の組み合わせを提案する。といったことはできたとしても、自分の印象に残ったあの写真を探す。というのとは少し方向性がちがうと思うからです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;レーティング&lt;/h2&gt;
+
+&lt;p&gt;こう考えると機械化できるところは機械に任せるとして、印象深いシーンのみをピックアップして分類していくということにしました。ピックアップする際にはApertureやCapture Oneでは★1〜5のようにレーティングをつけることができますが、これを利用しています。&lt;/p&gt;
+
+&lt;p&gt;過去にもレーティングをつけていましたが統一した基準をもっていませんでした。このため時期によってほぼ★1〜3しかつかっていないとき、★3を平均として1〜5の範囲で使っているときとばらつきが生まれていました。前述の通り、個人的な体験による重要度を尺度とするので時間の経過とともに重要度が下がっているものもあれば、重要度が上がるものもあります。&lt;/p&gt;
+
+&lt;p&gt;たとえば、スキューバダイビングをしていて最初のころは何でもすべて珍しい魚、地形と感じ、重要と位置づけていますが、次第に慣れてくると、同じ魚／地形でも天候や構図などが優れた場合が重要であるというように変化することもあります。&lt;/p&gt;
+
+&lt;p&gt;レーティングは新しく★3を平均点として、★4を優秀、★5は最優秀としてつけることにしました。厳密な定義はありませんが、★5は印刷して壁に飾っておきたいような写真、★4はパソコンやスマートフォンのデスクトップ画像にしたいような写真といった感覚で点数をつけています。&lt;/p&gt;
+
+&lt;p&gt;★2は★3相当だが構図が似ているのでボツ、★1はピンボケや構図がかなりわるいといった使い分けです。全部の写真にレーティングをつけると面倒なので、★3以上だなとおもうときだけレーティングをつけ、同じシーンで似たような構図が多いなとおもったら★2に下げるといった調整をしています。&lt;/p&gt;
+
+&lt;p&gt;枚数の比率としては★1〜★2相当の枚数くらべ★3以上の枚数が1/10以下になるよう目標として、全部で13万枚ありましたので★3以上は1万枚以下を目標として調整しました。この作業が最も時間がかかり2ヶ月以上かかりましたが結果として★3はおおよそ6,000枚、★4はおおよそ700枚、★5は60枚と目標通りの枚数に調整できました。&lt;/p&gt;
+
+&lt;p&gt;10数年分で7,000枚、デジタル一眼レフを使い始めた近年でも1年当たり1,000枚前後となったので見通しはかなりよくなりました。&lt;/p&gt;
+
+&lt;p&gt;最終的に容量にして★3以上の写真は170GB、★なし〜2の写真は2TB弱とかなりコンパクト化することができました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;ストレージ&lt;/h2&gt;
+
+&lt;p&gt;写真の保存としてこれまでRAWデータは自宅のNASやUSB接続のハードディスクに、現像済みのJPEGデータはflickrに保管していました。&lt;/p&gt;
+
+&lt;p&gt;今回はRAWデータも含めてクラウドストレージ上に管理することにしました。使ったのは次のストレージです。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Amazon Drive : Amazonプライム会員になると写真データは無制限に保存することができるのでCaptureとした★2以下の写真を置きます。無制限となるのはJPEGだけでなく、NEF、ARWなどRAWファイルも対象となりますが、EIP形式などは対象外なのでEIPではなくもとのNEF/ARWなどのRAWファイルに変換しておきます。&lt;/li&gt;
+  &lt;li&gt;Dropbox : EIP形式にしたRAWファイルと調整済みの現像JPEGデータを保存しておきます。★3以上の写真のみ置きます。Dropboxはバージョン履歴をとれるので、編集履歴も自動的に保存されるのが利点です。&lt;/li&gt;
+  &lt;li&gt;flickr : flickrにはほぼすべての現像データがすべて置いてあります。flickrは使い始めてちょうど10年ほどになりますが、容量無制限のころのProアカウントを利用しているので気兼ねなくアップロードすることができます。flickrも機械学習による自動分類ができるので発見目的に利用しています。&lt;/li&gt;
+  &lt;li&gt;Google Photos : オリジナル解像度ではなく、Googleの設定した解像度以下であれば無制限に置くことができます。機械学習により自動分類されるのでここにも★2以下の写真を置きます。
+多くのクラウドストレージは1TB程度以内までと容量制限がありますが、今回★3以上と★なし〜★2のように分類したことで★3以上の部分(約170GB分)については選択肢が大きく広がりました。Dropboxのようなクラウドストレージを使えばバックアップも気にすることなく自動的にとられているので大量のハードディスクやNASを管理する必要がなくなりました。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;新しいワークフロー&lt;/h2&gt;
+
+&lt;p&gt;こういった整理を進めながらも写真は日々ふえていきましたが、最終的な保存場所がきまったことでワークフローが整いました。写真を撮影したら、新しいCapture Oneのセッションを作成します。このCapture OneのセッションファイルはDropbox上に置き、すべてのファイルがDropbox上にバックアップされるようにします。&lt;/p&gt;
+
+&lt;p&gt;次にレーティングをつけて、★3以上の写真については調整と現像を行いEIP形式への変換などをしたうえで所定のディレクトリにエクスポートします。現像データはflickrにアップロードします。
+★なし〜★2の写真についてはRAWデータを所定の場所におきAmazon DriveとGoogle Photosにアップロードされるようにします。&lt;/p&gt;
+
+&lt;p&gt;ここまでの作業が完了したら該当のCapture Oneセッションは削除します。Dropbox上に削除済みファイルも保存されているので必要とあらば再度取り出せますから、心置きなく削除してしまいます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;整理をおえて&lt;/h2&gt;
+
+&lt;p&gt;今回の整理をおえて当初もくろんだ通り、再利用については非常にやりやすくなりました。2012年の旅行写真をとりだして編集するといった基本的な操作がストレス無くできるようになりました。Google PhotosをつかってAさんが写っている写真、といったような写真のとりだしかたもできるようになりました。&lt;/p&gt;
+
+&lt;p&gt;まだ新しいワークフローにしてまもないこともあり、AmazonやGoogleへのアップロード作業など一部自動化できていない部分もありますが最初からDropboxに保存することでクラウド上で処理できることも多くなりました。&lt;/p&gt;
+
+&lt;p&gt;Dropboxに追加されたら自動的にデフォルトのレシピで現像して、Amazon、Google、flickrにアップロードするとか、レーティング情報が追加されたら長期保存対象として所定のディレクトリに置くといった仕組みを作ることもできると思います。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>考えるためのツール選び (ノートからカードへ)</title>
+   <link href="http://watermint.org/2016/04/16/note-to-paper/"/>
+   <updated>2016-04-16T10:01:03+00:00</updated>
+   <id>http://watermint.org/2016/04/16/note-to-paper</id>
+   <content type="html">&lt;p&gt;ちょうど使っていたノートの残りページが少なくなってきたタイミングで、書籍「&lt;a href=&quot;https://www.amazon.co.jp/gp/product/4004150930/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=1211&amp;amp;creativeASIN=4004150930&amp;amp;linkCode=as2&amp;amp;tag=watermint-22&quot;&gt;知的生産の技術&lt;/a&gt;」を読んだことが影響して、使うノートをカード(断裁紙)に変えてみることにしました。知的生産の技術は初版が1969年と約50年ほどまえの内容ですが、今回は加えてパソコンやスマートフォンをつかったデジタル端末と連携した使い方を整理してみます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper1.jpg&quot; alt=&quot;モレスキン&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;カードとは&lt;/h2&gt;
+
+&lt;p&gt;本エントリーでいうカードとは、特別なものではなくノートのように綴られていない1枚一枚ばらばらの紙(断裁紙)のことです。「知的生産の技術」ではB6サイズで、やや厚みのある紙(105kg)、9mmの罫線がはいったものが紹介されています。これは「京大式カード」としていまでも文具店で売られています。今回はいくつか検討した結果A5サイズ、5mmドット方眼を使うことにしました。&lt;/p&gt;
+
+&lt;p&gt;このような紙の片面だけに内容を書きます。ややもったいない気がしますが、両面は使いません。カードの使い方や、カードにつかう紙については後述します。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;なぜカードにするか&lt;/h2&gt;
+
+&lt;p&gt;2008年頃からノートは[ミドリのMDノート(http://www.midori-japan.co.jp/md/)というのを使っていました。サイズはA5のものを主に使っています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper2.jpg&quot; alt=&quot;MDノート&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;素朴なデザイン、クリーム色がかった紙、万年筆で書いたときも気持ちが良いなどいくつか気に入る要素があったのがこの8年ほど使い続けていた理由です。ノートは主に議事メモや計算、思考実験などいろいろな用途に使っていました。ただ近年、いくつか不便だと感じるところも増えてきました。&lt;/p&gt;
+
+&lt;p&gt;「知的生産の技術」にもいくつかノートよりもカードの方が優れている点が紹介されていますが、読みながら自分で気付いた理由を以下にご紹介します。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;前ページに書いた内容を振り返りながら考えるのが面倒&lt;/h2&gt;
+
+&lt;p&gt;考え中、まとめ中の内容を前ページと何度も往復しながら進めるのはかなり面倒です。できれば10ページ分ぐらいの情報量を一覧して考えたいのに、何度もページをめくらないといけないので考えが中断されてしまうのがもどかしいところでした。&lt;/p&gt;
+
+&lt;p&gt;特に多かったのはアプリケーションの設計をしているときにあるページにはデプロイ図、あるページにはクラス図、あるページには重要な処理のシーケンスなどを描いていたとしてこれらが一度に参照できないと一貫性があるかどうか確認できないといったケースです。&lt;/p&gt;
+
+&lt;p&gt;対策としてよりA4／A3サイズとか、大きめの画用紙を用意するなど紙を大きくすることで一部解消していましたが、保管する際にサイズが違うと扱いに困ったり、必要なときに大きな紙が手元にないなど完全な解消とは言えませんでした。&lt;/p&gt;
+
+&lt;p&gt;カードであれば机いっぱいにカードを広げてあれこれ比較しながら考えることができます。ちなみに、カードの両面を使ってしまうとこのように広げて比較するときに結局ぺらぺらめくりながらとなるのでノートで味わった不便さを引き継いでしまいます。もったいないですが贅沢にカードを片面だけを利用します。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;不必要な情報を持ち歩きたくないときに困る&lt;/h2&gt;
+
+&lt;p&gt;特に仕事上のメモが入ったノートをどう取り扱うかは悩ましいところです。パソコンやモバイルデバイスであれば暗号化やパスコードロック、遠隔から削除するなどいくつも防御手段があるので安全ですが、紙媒体ではどこかに置き忘れてしまうとどうにもなりません。&lt;/p&gt;
+
+&lt;p&gt;このため、仕事で使うノートは基本的に会社の机や棚に入れて施錠しておくことになります。用途ごとなどでノートを分離しすぎると持ち歩きや管理が面倒なのでできれば一冊にまとめたいのですが、会社のセキュリティーレベルで保管しておきたいのであれば分離するしかありません。&lt;/p&gt;
+
+&lt;p&gt;仕事用ノートには仕事上のメモだけではなく読書備忘録などを記録することもあるのですが、読書備忘録だけ持ち帰りたくてもやぶってもって帰るわけにも行かないのでやむなく持ち帰らないという選択をするしかありませんでした。&lt;/p&gt;
+
+&lt;p&gt;カードであれば行き先と用事にあわせて取捨選択できるのでこういった悩みがなくなります。仕事用カードは仕事場に施錠しておいておき、残りの読書備忘録や旅行メモなどはいつでも好きなように持ち歩けます。ささいな悩みもチリも積もれば大きなストレスになるのでカードの利用は大きな安心感があります。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;スキャンしづらい&lt;/h2&gt;
+
+&lt;p&gt;ノートは物理的に保管スペースもとるのと、持ち歩かないと参照できないのでやや不便です。
+先月読んだ本から思いついたアイデアって何だったっけ? といった振り返りができないのではせっかくメモしても役に立ちません。こういうデータはDropboxなどクラウド上に保存して持ち歩きたいのでスキャンしています。&lt;/p&gt;
+
+&lt;p&gt;スキャンするのに1ページ、2ページ程度をスキャンするのはノートでも簡単ですが複数ページとなると面倒です。断裁紙であればScanSnapなどのスキャナで連続してスムースにスキャンできるのでデジタル化の手間が省けます。なお断裁紙でもパンチ穴があると穴にひっかかってうまく紙が送られないということもあるので穴をあけずに使います。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;カードの使い方&lt;/h2&gt;
+
+&lt;p&gt;カードの使い方は「知的生産の技術」に紹介されている内容をほぼ踏襲しています。次のようなことを心がけて使います。以下のような使い方を心がけているのはメモや考えを再利用しやすくするためです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;1枚に1件のトピックのみ書く&lt;/h2&gt;
+
+&lt;p&gt;慣れるまで抵抗感がありますが、余白があっても別のトピックであれば別の紙に書きます。これは自分のまとめた情報を取捨選択したり並び替えたりして新しくアイデアをまとめていくことを重視するためです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;カードの片面のみ使う&lt;/h2&gt;
+
+&lt;p&gt;いくつかのカードを一覧にして比較検討したいので両面使ってしまうと煩雑になります。また、異なるセキュリティーレベル（仕事用と個人用）の情報が混じったりすると管理が煩雑になるのでカードは片面だけを利用します。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;カードにはなるべく文章で書く&lt;/h2&gt;
+
+&lt;p&gt;ある程度時間が経つと自分で書いた文章でもメモの意味がわからなくなり、メモの意味がなくなってしまうといったことがあります。
+議事録など議事進行に合わせてある程度速記的に書いたものは新たなカードに文章としてまとめなおしておきます。&lt;/p&gt;
+
+&lt;p&gt;ただ、「知的生産の技術」が書かれた時代(初版1969年)と違い現在ではパソコンやスマートフォンなどを用いて手書きよりも効率良く長文を書くことができますので、かなり長文になるようであれば迷わずパソコンを使ったほうがいいでしょう。
+議事録であれば参加者などに共有する場合に手書きより電子データの方が便利です。紙に書いたメモと電子的に書いたメモをどう管理するかについてはまた別の機会に書くことにします。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;日付(年月日)とタイトルを書く&lt;/h2&gt;
+
+&lt;p&gt;カードがある程度たまって整理するときに日付やタイトルがないと内容の判断が面倒になります。いま考えようとしているトピックと関連があるのかないのか簡単に判断できるよう、面倒でも必ず記入しておいたほうがいいでしょう。また同じトピックについて複数枚ある場合は連番を振っておくべきです。&lt;/p&gt;
+
+&lt;p&gt;「知的生産の技術」にも書かれていましたが、日付については月日だけでなく年も書いておくべきです。個人的にも3〜4年前からは年も含めて書いていますが、年を記入していなかったときのメモは再利用するのに苦労します。特に時系列にそって整理し直そうとすると大変です。&lt;/p&gt;
+
+&lt;p&gt;日付についての書き方はいろいろありますが、個人的にはISO 8601の拡張形式 YYYY-MM-DDを使っています。これはある程度好みの問題ですが個人的には下記のような理由でYYYY-MM-DDにしています。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;YYYYMMDDのように区切りがない場合は判読しづらい。&lt;/li&gt;
+  &lt;li&gt;YYYY年MM月DD日や平成YY年MM月DD日のように漢字や和暦を使ってもよいが、手書きのときには面倒。&lt;/li&gt;
+  &lt;li&gt;スキャンしたカードのファイル名も合わせたいが、YYYY.MM.DDのようなドット区切では一部ソフトウエアでうまく扱えないことがある。ハイフン区切りでは問題が起きにくい。&lt;/li&gt;
+  &lt;li&gt;May 1st, 2016のように英語表記では電子化したときのファイル名を使った時系列のソートが面倒。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;カードに使う紙を選ぶ&lt;/h2&gt;
+
+&lt;p&gt;カードに使う紙をどれにするかあれこれ考えました。文具好きにはたまらない時間です。単に趣味の選択というほかに、カードとして利用するためにいくつか条件を考えました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;調達しやすさ&lt;/h2&gt;
+
+&lt;p&gt;整理して再利用していくため、または記録を資産として残していくために利用したいので10、20年と長期的に販売されているものを選びたいものです。そのほかに、出先で紙が足りなくなって追加で手に入れられないというのももどかしいですから調達しやすさは重要な評価ポイントです。&lt;/p&gt;
+
+&lt;p&gt;厚さや紙質は多少変わっても構わないのですが、サイズがばらばらになると扱いづらくなるので調達しやすいサイズの紙を選ぶことにします。モレスキンのラージサイズ(A5より少しスリムな130x210mm)は持ち運ぶときに絶妙なサイズでとても魅力的だったのですが、断裁紙の状態で販売されているのをみつけることができなかったので断念しました。&lt;/p&gt;
+
+&lt;p&gt;「知的生産の技術」でふれられているB6サイズの京大式カードは都内の文具店を何店舗か回ってみたところ、きちんと数えていませんが2〜3割程度の店舗でおいているような印象がありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://takeopaper.com/&quot;&gt;takeopaper&lt;/a&gt;のようなさまざまなサンプルから好みのサイズにカットして納品してもらえるようなサービスもあります。このため必ずしも標準サイズにこだわる必要はありませんが収納文具など周辺をととのえることまで考えれば標準サイズのほうがより手軽です。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;どのサイズにするか&lt;/h2&gt;
+
+&lt;p&gt;調達しやすいサイズとなると必然的にA4、A5、A6、B5、B6サイズなどの標準的な断裁紙を選ぶことになります。標準サイズを使えばクリアフォルダーやファイルなど収納文具も無理なく使えるので効率的です。&lt;/p&gt;
+
+&lt;p&gt;京大式カードのようにB6サイズは野外など立った状態でも使うことを想定して小さすぎず大きすぎずという選び方に適しています。&lt;/p&gt;
+
+&lt;p&gt;一方、いま野外など立った状態でメモするのであればスマートフォンを使うのが最も手っ取り早く、煩わしさがありません。このため、野外などで軽くメモをしたいという用途は縮小し、デスク上で使うことを主な利用シーンと想定しました。&lt;/p&gt;
+
+&lt;p&gt;このためB6サイズ(128x182mm)よりやや大きいA5サイズ(148x210mm)を使うことにしました。もともと使っていたMDノートもA5を最もよく使っていたので使い慣れているということもあります。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-13&quot;&gt;紙選び&lt;/h2&gt;
+
+&lt;p&gt;まず、ちょうど紙選びをしていたときに&lt;a href=&quot;http://kobeha.com/kobeha/2016/03/05/post-86/&quot;&gt;日本橋三越の世界の万年筆祭&lt;/a&gt;という催事に&lt;a href=&quot;http://kobeha.com/&quot;&gt;神戸派計画&lt;/a&gt;というブランドが出店していたのでのぞいてきました。GRAPHILOという万年筆用紙が展示されており、試し書きもさせていただきました。ちょうどA5サイズの断裁紙もおいていたので、横に置いてあったLiscio-1と合わせて買ってきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper3.jpg&quot; alt=&quot;Liscio-1とGRAPHILO&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;価格はLiscio-1が100枚で800円(税抜)、GRAPHILOが50枚で800円(税抜)とGRAPHILOはかなり高級感があります。厚みや重さなど詳しく書いていないのでわかりませんが、目測では厚みはどちらもほぼ同じで、おそらくモレスキンやMDノートなどともさほど大きな変わりはないかと思います。&lt;/p&gt;
+
+&lt;p&gt;後から知ったことですが残念ながらLiscio-1は在庫限りのようで今後はGRAPHILOに統一されていくようです。どちらも100枚ずつ使ってみた時点の好みでは、Liscio-1のほうが好みだったのでこれは残念でした。GRAPHILOは非常になめらかで気持ちいいのですが、すこしざらつきがあったほうが個人的には書きやすいと感じたためです。&lt;/p&gt;
+
+&lt;p&gt;次に試したのがMDノートを出しているミドリからMDノートの断裁紙版、&lt;a href=&quot;http://www.midori-store.net/SHOP/91803201.html&quot;&gt;MD用紙A5 100枚パック&lt;/a&gt;です。こちらはオンラインストア限定で売られていますが100枚で400円(税抜)と神戸派計画と比べてもかなり手ごろです。MDノートだと176ページ(88枚)で800円程度ですからノートと比べるとさらにお得感があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper4.jpg&quot; alt=&quot;MD用紙&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;MD用紙がいつまで手に入るかはわかりませんが、ひとまず今回の紙選びではMD用紙をメインにすることにしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-14&quot;&gt;持ち運び&lt;/h2&gt;
+
+&lt;p&gt;ノートのように表紙がないと紙がぐちゃぐちゃになってしまうので持ち運び用の工夫が必要です。最初はA5サイズのプラスチック下敷き2枚でサンドイッチにすればよいかと考えていましたが、実際に文具店でプラスチック下敷きをみてみると比較的やわらかいものがおおいのでカッティングマットを使うことにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper5.jpg&quot; alt=&quot;カッティングマットでサンドイッチ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;カッティングマットだと硬さも申し分なく、適度にしっとりと手になじむのが好印象です。このカッティングマットをゴムバンドでとめて持ち歩いています。十分に硬いので、クリップボードを使うように立ち姿勢でメモを取ることもできます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-15&quot;&gt;ドット方眼&lt;/h2&gt;
+
+&lt;p&gt;方眼の大きさや濃さなどかなり好みの分かれるところだと思います。モレスキンの方眼は個人的には方眼が濃すぎるので好みではありません。MDノートの方眼は適度に薄く、あまり主張しないので長年気に入って使っています。&lt;/p&gt;
+
+&lt;p&gt;罫線のいれかたも、端から端までびっしり線がかかれているのはあまり好みではありません。厳密に書かなければいけないという印象があるからかもしれません。&lt;/p&gt;
+
+&lt;p&gt;MDノートがイメージしている原稿用紙のマス目ようにひとマスごとわずかに隙間が空いているほうが圧迫感を感じないので書きやすく感じます。&lt;/p&gt;
+
+&lt;p&gt;最初、断裁紙を探す際も好みの方眼のはいったA5サイズものを探していましたが全く見つかりませんでした。このため方眼についてはあきらめて、無地の断裁紙を買った上で自宅のプリンターで印刷することにしました。&lt;/p&gt;
+
+&lt;p&gt;個人的には5mm方眼でぱっと判別できるかどうかぎりぎりぐらい薄い方眼が好みです。印字するときも薄ければインクをあまり使わないので経済的です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-04-16-paper6.jpg&quot; alt=&quot;ぎりぎり見えるか見えないかの方眼&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;section-16&quot;&gt;ノートからカードへ変更した効果&lt;/h1&gt;
+
+&lt;p&gt;ノートからカードにしたことでどのぐらい生産性が上がったとか、時間が節約できたかといった定量的なデータはとらなかったのではっきりとはわかりません。ただ、前後のページをぱらぱらめくるような思考の妨げがなくなったこと、情報の取捨選択が簡単になったことは実感として確かなものがあります。&lt;/p&gt;
+
+&lt;p&gt;スキャンしたカードのファイルをどう管理するか、スキャン済みのカードをどう整理するか、そもそも大量のカードをどう管理するかといった課題についてはもう少し長期間試行錯誤する必要がありそうです。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-17&quot;&gt;考える時間と質&lt;/h2&gt;
+
+&lt;p&gt;成果物の品質があがったかどうかの客観的判断は難しいところですが、自己満足レベルではかなり効果があったと思っています。「知的生産の技術」にもふれられていますが、なにかものを作り出すための時間においてはいかにわずらわしさをなくすかが影響を与えます。今回ノートからカードにしたことによって、本エントリーでふれたいくつかのわずらわしさがなくなりました。これにより思考が途切れることなく考えることに集中できるようになりました。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>英辞郎テキストをDictionary.app用に変換</title>
+   <link href="http://watermint.org/2016/03/05/eijiro-dictionary-app-os-x/"/>
+   <updated>2016-03-05T16:07:27+00:00</updated>
+   <id>http://watermint.org/2016/03/05/eijiro-dictionary-app-os-x</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://blogs.oracle.com/okazaki/entry/%E8%8B%B1%E8%BE%9E%E9%83%8E%E3%82%92dictionary_app%E3%81%A7_mac&quot;&gt;8年ほど前&lt;/a&gt;にも同様に、&lt;a href=&quot;http://eijiro.jp/&quot;&gt;英辞郎&lt;/a&gt;の非暗号化テキストを購入してMac OS X標準辞書アプリ(Dictionary.app)向けにデータを変換して長らく利用していました。今回、ひさしぶりに新しくデータを購入して作り直すことにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://eijiro.jp/&quot;&gt;英辞郎サイト&lt;/a&gt;によれば、非暗号化テキストデータはバージョン145以降販売される予定はなく、最新版は144.1とのことです。&lt;/p&gt;
+
+&lt;p&gt;いまはわざわざ自分で変換しなくとも&lt;a href=&quot;https://tecorin-site.appspot.com/osx/index.html&quot;&gt;英辞郎 for OS X Dictionary.app&lt;/a&gt;として販売されていますので面倒だとか、ターミナルからコマンドをうつという作業にぴんとこない方はこちらを購入されるのが良いでしょう。辞書データのバージョンも新しいです。&lt;/p&gt;
+
+&lt;p&gt;一方、個人的にはすこし表示をカスタマイズしたいなという気持ちもありましたので今回は少し古いですがテキストデータを購入し、データを作り直すことにしました。&lt;/p&gt;
+
+&lt;p&gt;今回やりたかったところは&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;品詞(名詞、動詞等)ごとの表示整理&lt;/li&gt;
+  &lt;li&gt;読みがなをルビとして表示&lt;/li&gt;
+  &lt;li&gt;カナによる発音、大学入試のような記号は不要なので省略&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;といったところです。あとは文字サイズや色のテイストをOS X標準インストールされているウィズダム等とにたようなものにそろえたいと
+いったところです。&lt;/p&gt;
+
+&lt;p&gt;完成形は下記のようなイメージです。品詞については、単語によって若干表現ゆれがあったので、一度ソートし直して番号を振り直しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2016-03-05-eijiro.png&quot; alt=&quot;辞書での表示例&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;変換方法とスクリプトについてはGithubにおいてあります。MITライセンスとしましたのでご自由にご利用ください。辞書データ全体について表示の確認をしているわけではないのでくずれている部分もあるかと思いますが、気になる方は随時修正いただければ。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/eijiro&quot;&gt;watermint/eijiro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>書評: 僕たちのゲーム史</title>
+   <link href="http://watermint.org/2015/04/04/book-review-our-game-history/"/>
+   <updated>2015-04-04T10:01:13+00:00</updated>
+   <id>http://watermint.org/2015/04/04/book-review-our-game-history</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/gp/product/4061385240/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;amp;camp=247&amp;amp;creative=1211&amp;amp;creativeASIN=4061385240&amp;amp;linkCode=as2&amp;amp;tag=watermint-22&quot;&gt;僕たちのゲーム史&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;40年程度のビデオゲームの歴史を膨大な文献から、ゲーム発売当時の状況を振り返った上で考察していく、というスタイルでゲームの歴史が綴られています。&lt;/p&gt;
+
+&lt;p&gt;本書の直前に「教養としてのゲーム史 (ちくま新書)」というのを読んだことが本書を読む上で好対照となりました。「教養としてのゲーム史」は教養としてのとするには全体的に論拠がうすく、著者独自による振り返りであるように感じました。これは今回紹介する「僕たちの」が紹介している文献の幅広さと比較してしまうからかもしれません。&lt;/p&gt;
+
+&lt;p&gt;さて、「僕たちのゲーム史」の内容は今となっては当たり前となったゲームシステムや、スタイル、ジャンルを当時開発者やユーザがどのような体験を通して切り開いてきたかを丁寧に振り返っている良著です。ここまで膨大な範囲を調査し、分析することはなかなかできることではありませんから、ゲーム史評価において本書を超えるのはかなりのハードルが上がったことだろうと思っています。&lt;/p&gt;
+
+&lt;p&gt;本書の流れですが帯にある「スーパーマリオはアクションゲームではなかった！」は、それだけを聞けば何ことかわからないのですが、当時のゲーム雑誌での評価をもとにうまく分析しています。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;しかもその2ページの記事の中で、『Beep』はファミコン用ソフト『デビルワールド』について次のように書いています。
+ 「このタイプのゲームは、種々出つくした感がありますが、これはところどころに新しい趣向を採り入れて、十分に楽しめるできばえになっています。」
+ これはなかなか衝撃的な言葉ですね。僕はまだゲームの歴史を語り出したばかりなのですが、第一章の段階で、すでに特定のジャンルのゲームは「出つくした」と言われているわけです。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;このようにゲーム史は常に過剰供給との戦いがあり、その状況下でも創意工夫の中で新しいジャンルが切り開かれてきました。本書はこの創意工夫を当時のゲーム体験に振り返って評価することで何が新しかったのかを丁寧に分析しているところが著者の主張をより明確に裏付けています。&lt;/p&gt;
+
+&lt;p&gt;ゲームの歴史を振り返ろうとするとき、ヒットしたゲームがあってそれらについて単に機能とかゲームシステムといった事実としてわかりやすい特徴をもとに分析したのではこのような裏付けをつくることはできません。&lt;/p&gt;
+
+&lt;p&gt;ゲームの歴史という比較的我々が慣れ親しんで、体験し、よく知っている分野であるからこそあるジャンルのゲームがどのような経緯で評価されるようになったのか、知るのは難しいことです。あるいみゲームの歴史という物語の結果を我々自身がよく知っていることもあって、なあんだそんなことか。と思うことが多かったり、拍子抜けするかもしれません。&lt;/p&gt;
+
+&lt;p&gt;それでも本書全体を通してみれば拍子抜けすると言うよりは、子供から歴代遊んできたゲームを思い出しながら、その面白さを追体験しているような印象さえあります。このため堅苦しすぎず、読み終わった後も気持ちよく、古いゲームでも引っ張り出してみようかなと思える構成になっていているのでしょう。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Akka + JavaFX Proof of Concept</title>
+   <link href="http://watermint.org/2015/02/24/akka-javafx-proof-of-concept/"/>
+   <updated>2015-02-24T12:17:00+00:00</updated>
+   <id>http://watermint.org/2015/02/24/akka-javafx-proof-of-concept</id>
+   <content type="html">&lt;p&gt;Since GUI framework like JavaFX requires always run on main thread for handle events/manipurating UI properties. This usually cause unexpected behaviors. Fextile trying to separate layout specific codes, handling events, manipurating UI properties, and business logic on top of Akka async messaging framework.&lt;/p&gt;
+
+&lt;p&gt;Defining layout is very similar to JavaFX/ScalaFX applications.&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MyApp&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;FextileApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// Do layout just like JavaFX/ScalaFX application
+&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PrimaryStage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;My Application&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;BLUE&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Option&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Props&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Props&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;MyApp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For all events from scene graph are transfered to actors on Akka.&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MyApp&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Actor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;receive&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Receive&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Scene&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;MouseClicked&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;RED&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;_:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;WindowHidden&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nc&quot;&gt;Fextile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shutdown&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;code on github: &lt;a href=&quot;https://github.com/semester/semester-foundation-fextile&quot;&gt;semester/semester-foundation-fextile&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Twitter Bootstrap like UI framework for JavaFX/ScalaFX</title>
+   <link href="http://watermint.org/2013/12/13/bootstrap-like-ui-framework-for-javafx-and-scalafx/"/>
+   <updated>2013-12-13T11:55:00+00:00</updated>
+   <id>http://watermint.org/2013/12/13/bootstrap-like-ui-framework-for-javafx-and-scalafx</id>
+   <content type="html">&lt;h2 id=&quot;feeling-of-applications&quot;&gt;Feeling of Applications&lt;/h2&gt;
+
+&lt;p&gt;Applications which running on iOS, Android, Windows, and OS X have nearly identical user experience. There are guidelines of fonts, color, margins, etc for labels, buttons, etc including effects or animation for action. User experience guidelines are publicly available for developers like below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/&quot;&gt;iOS Human Interface Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://developer.android.com/design/index.html&quot;&gt;Design Android Developers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/windowsphone/design/hh202915(v=vs.105).aspx&quot;&gt;Design library for Windows Phone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Application developers and designers refer these guidelines, then design UI/UX for their applications. For iOS and Windows Phones have official review for publishing on application store. Applications may reject when their applications are not compatible with design guidelines.&lt;/p&gt;
+
+&lt;h2 id=&quot;twitter-bootstrap&quot;&gt;Twitter Bootstrap&lt;/h2&gt;
+
+&lt;p&gt;However, there are no reviews for cross platform applications like web applications. Web applications may have different feeling compared to their native applications. Of course, we could find guidelines or best practices for web application UI/UX design. For example, &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; is well known UI framework for designing web applications. Bootstrap is collection of CSS/JavaScript to define UI component and their categories. Defined UI components are like&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Red button for destructive operation like delete file, delete repository, etc.&lt;/li&gt;
+  &lt;li&gt;Yellow text region for attention to the user to describe warnings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-bootstrapcomponents.png&quot; alt=&quot;Bootstrap UI components&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bootstrap also have customization feature, called theme, to define own color scheme, fonts, sizes, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;javafx-and-ui-framework&quot;&gt;JavaFX and UI framework&lt;/h2&gt;
+
+&lt;p&gt;JavaFX is a new UI framework running on Java. JavaFX have varieties of UI components, like buttons, tab pane, tables, lists, sliders etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-javafxcomponents.jpg&quot; alt=&quot;JavaFX UI components&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, at least I know, there is no UI framework like Twitter Bootstrap. There are no definitions like button for destructive operation, warning text, approval operation, etc. That’s why I started development of UI framework for JavaFX/ScalaFX.&lt;/p&gt;
+
+&lt;h2 id=&quot;fextile-ui-framework-for-javafxscalafx&quot;&gt;Fextile; UI framework for JavaFX/ScalaFX&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14&quot;&gt;Fextile&lt;/a&gt; is my project name which coined from JavaFX and textile. On the begining of the project, I just thought it’s easy to port Bootstrap’s CSS into JavaFX because JavaFX has similar feature called JavaFX CSS. But there are no compatibility except syntax. So I needed to create both JavaFX CSS and class libraries.&lt;/p&gt;
+
+&lt;p&gt;Current implementation of Fextile built based upon ScalaFX. &lt;a href=&quot;http://code.google.com/p/scalafx/&quot;&gt;ScalaFX&lt;/a&gt; is a DSL/wrapper of JavaFX on Scala.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample1.png&quot; alt=&quot;Sample 1&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile.sample&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile._&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.application.JFXApp&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.scene.control.Label&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sample1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;VContainer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;H1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile Sample&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;styleClass&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-primary&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PrimaryStage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// use fextile.Scene instead of scalafx.scene.Scene
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample1.scala&quot;&gt;Sample1.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sample1; simple header and labels. First label uses default fonts, size and color. Second label uses “text-primary” class on Bootstrap. Fextile also defines “text-muted”, “text-warning”, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample2-wide.png&quot; alt=&quot;Sample 2 - Wider screen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sample 2; responsive layout. This sample is responsive to screen width. On wider screen, texts are aligned as two columns.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample2-narrow.png&quot; alt=&quot;Sample 2 - Narrow screen&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile.sample&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile._&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.scene.control.Label&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.application.JFXApp&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sample2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GridRow&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;H1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Responsive&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg12&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg6&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;styleClass&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-primary&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg6&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PrimaryStage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// use fextile.Scene instead of scalafx.scene.Scene
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample2&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample2.scala&quot;&gt;Sample2.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For narrow screen, text are aligned as one column.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample3.png&quot; alt=&quot;Sample3&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample3.scala&quot;&gt;Sample3.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sample 3; screen to screen navigation. This sample uses screen to screen navigation component like &lt;code class=&quot;highlighter-rouge&quot;&gt;UINavigationController&lt;/code&gt; in iOS. Screen scroll left on “Next” button pressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/watermint/Fextile&quot;&gt;Fextile&lt;/a&gt; is on early starge of development. If you’d like to have more components. Please send me pull-requests on github. Thanks.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JavaFXアプリケーションの手触り感をととのえる、Fextile</title>
+   <link href="http://watermint.org/2013/12/13/designing-ui-framework-for-javafx/"/>
+   <updated>2013-12-13T08:02:14+00:00</updated>
+   <id>http://watermint.org/2013/12/13/designing-ui-framework-for-javafx</id>
+   <content type="html">&lt;p&gt;この記事は&lt;a href=&quot;http://www.adventar.org/calendars/146&quot;&gt;JavaFX Advent Calendar 2013&lt;/a&gt;の13日目、昨日は&lt;a href=&quot;http://www1221uj.sakura.ne.jp/blog/&quot;&gt;orekyuu&lt;/a&gt;さんの&lt;a href=&quot;http://www1221uj.sakura.ne.jp/blog/2013/12/javafx%E3%81%A7twitter%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%80%82/&quot;&gt;JavaFXでTwitterクライアント作ってみた。&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;手触り感&lt;/h2&gt;
+
+&lt;p&gt;iOSや、Android、Windows、OS Xのアプリケーションは、アプリケーションの製作者が違っていてもだいたい同じような手触り感があります。これはラベルの配置や色、スペースの取り方、フォントのような見栄えはもちろんのこと、ボタンをおしたときのフィードバック、画面遷移の時のエフェクトなどさまざまな振る舞いがOSやUIフレームワークによってルールが規定されているためです。規定はたとえば次のようにガイドラインとして公開されています。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/&quot;&gt;iOS Human Interface Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://developer.android.com/design/index.html&quot;&gt;Design Android Developers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/windowsphone/design/hh202915(v=vs.105).aspx&quot;&gt;Design library for Windows Phone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;アプリケーション開発者はこれを参照し、アプリケーションに必要なUI/UXを作り上げていきます。iOSやWindows Phoneアプリケーションのように、アプリケーション公開までに審査があるようなケースではガイドラインに沿っていないアプリケーションは排除されるなどOSやデバイス全体のエコシステムとして手触り感の統一をしています。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;クロスプラットホームの場合&amp;lt;&lt;/h2&gt;
+
+&lt;p&gt;ではWebアプリケーションの場合はどうでしょうか。WebアプリケーションはデバイスやOS、Webブラウザの種別やプラグインなどによって左右されることもありますが、モダンなデバイス／OSからであればたいていの環境で同じように動作します。この場合、iOSならではの手触り感、Androidならではの手触り感といったOSごとの手触り感とは違う別の手触り感が表現されることになります。Webアプリケーションでもいくつかルールやマナーはありますが、審査等はありませんので厳格かつ広く守られているガイドラインのようなモノは存在しません。&lt;/p&gt;
+
+&lt;p&gt;自由にデザインできるという反面、自由度が高すぎて制作コストが高くなったり、制作期間が長引いてしまうというデメリットもあります。このような課題に対して、近年では&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Twitter Bootstrap&lt;/a&gt;のようにWebのデザインルールを決めたCSSやJavaScriptライブラリを使い、アプリケーションのテイストに合わせてテーマなどをカスタマイズする手法がとられることが多くなりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-bootstrapcomponents.png&quot; alt=&quot;Bootstrap UI components&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ヘッダやボタン、ラベルがある程度のカテゴリにわけられているため、Webアプリケーション開発者・デザイナーはこれらのカテゴリを利用してデザインを決定します。カテゴリと色やサイズなどはCSSとして分離されているため、プロトタイプ開発時にはデフォルトのデザインで作成しておき、リリース時には適切なブランドカラーを配置するなどデザイン作業に余裕が生まれます。&lt;/p&gt;
+
+&lt;h2 id=&quot;javafx&quot;&gt;JavaFX&lt;/h2&gt;
+
+&lt;p&gt;クロスプラットホームのUIを作る手段としてJavaはすでによく用いられています。一昔前はJavaアプレットがあまりにも重いという印象で敬遠されることもありましたが、近年では高速化も進み、10年ほど前のユーザエクスペリエンスが低い状態ではなくなりました。ただJavaのUIフレームワークはAWTとSwingという10年ほど前の状態からあまり進歩していませんでした。その間にはMicrosoftのSilverlightやAdobe AirなどデスクトップアプリケーションのためのUIライブラリが続々と登場し差は広がる一方でした。&lt;/p&gt;
+
+&lt;p&gt;2008年にはJavaFX Scriptとして、新しく既存のAWT・Swingに変わるUIフレームワークが発表されました。当初、JavaFX ScriptとしてJava言語とは別の新しいプログラミング言語を使ってUIを構成するようにプロジェクトは進んでいましたが、紆余曲折の末、AWTやSwingと同様にJava言語から利用できるUIフレームワークと位置づけられてJavaFX 2がリリースされました。JavaFX 2ではWebKitエンジンを組み込んだモダンなWebView等を始めとして強力なコンポーネントが追加されました。クロスプラットホームで利用可能なUIフレームワークとして新たな選択肢が登場したといえます。&lt;/p&gt;
+
+&lt;h2 id=&quot;javafx-1&quot;&gt;JavaFXと手触り感&lt;/h2&gt;
+
+&lt;p&gt;JavaFXには、ボタン、タブ、リストやテーブルなど多くのコントロールが提供されています。これらのデザインはプログラムから変更したり、JavaFX CSSをつかって外部ファイルにて定義することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-javafxcomponents.jpg&quot; alt=&quot;JavaFX UIのコントロール&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;JavaFXのコントロールは、一定のデザインテイストで制作されているためボタンやタブ、スクロールバーなどの手触り感は共通しています。ただ、ファイル削除など「破壊的な操作をするためのボタン」とか、決済をするための「同意をするためのボタン」といったユーザに対する意図を伝えるためのカテゴリ分けまでは定義されていません。このため開発者はそれぞれアプリケーションの都合に合わせて色やサイズを変えることになるのですが、自由度が高すぎて制作コストが高くなったりします。&lt;/p&gt;
+
+&lt;p&gt;さて、この話何か見覚えがあります。これを解決するためには、Twitter BootstrapのようなUIフレームワークがJavaFX向けにあればいいのではないか。早速、そういったライブラリがないか探してみました。ただ、ある程度探してみた限りでは求めているようなUIフレームワークは見当たりませんでした。無ければ作るしかありません。&lt;/p&gt;
+
+&lt;h2 id=&quot;javafxtwitter-bootstrap&quot;&gt;JavaFX向けのTwitter Bootstrapを作る&lt;/h2&gt;
+
+&lt;p&gt;さて、JavaFXには前述の通りJavaFX CSSというCSSライクな機能が提供されています。ではTwitter BootstrapのCSSをそのまま移植すればよいのではないかというのが最初の考えでした。ただ、残念ながらJavaFX CSSとCSSは直接的な互換性はなく、またJavaFX CSSからは指定できない項目があるなど簡単な移植ではすまないということが分かり、JavaFX CSSと合わせてクラスライブラリも作成することにしました。&lt;/p&gt;
+
+&lt;p&gt;Java言語で作ってもよかったのですが、今回は最近勉強中のScala言語を使って実装することにしました。Scalaには&lt;a href=&quot;http://code.google.com/p/scalafx/&quot;&gt;ScalaFX&lt;/a&gt;というScalaからJavaFXを利用するためのライブラリがありますので、ScalaFXをベースに作ることにしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;fextile&quot;&gt;Fextile&amp;lt;&lt;/h2&gt;
+
+&lt;p&gt;ライブラリの名前はFextileにしました。テキスタイル(Textile; 織物、布地)とJavaFXを何となく合わせた造語です。まずはデザインテイストを全体的にTwitter Bootstrapに合わせてデザインし、実際のアプリケーションをデザインしながら優先度の高いコンポーネントを製作しました。でき上がったのが次のサンプルのようなコンポーネントです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample1.png&quot; alt=&quot;Sample 1&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile.sample&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile._&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.application.JFXApp&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.scene.control.Label&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sample1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;VContainer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;H1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile Sample&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;styleClass&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-primary&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PrimaryStage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// use fextile.Scene instead of scalafx.scene.Scene
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample1.scala&quot;&gt;Sample1.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ヘッダとテキスト。サンプルではテキストの色はデフォルトのものと、Twitter Bootstrapでのtext-primary相当のものを使っています。JavaFX CSS側にはtext-muted、text-warningなど他のクラスを定義されていますので、利用シーンごとに指定を変えて使います。&lt;/p&gt;
+
+&lt;p&gt;次のサンプルではデバイスや画面の広さによってコンポーネントの配置が適切に変更されるような、いわゆるレスポンシブデザインをサポートしたコンポーネントを利用しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample2-wide.png&quot; alt=&quot;Sample 2 - 画面が広い場合&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;画面が狭くなると、2列に表示されていたコンポーネントは1列に整列し直されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample2-narrow.png&quot; alt=&quot;Sample 2 - 画面が狭い場合&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile.sample&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fextile._&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.scene.control.Label&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;scalafx.application.JFXApp&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sample2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;lazy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GridRow&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;H1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Responsive&quot;&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg12&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg6&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Label&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, ex sit tempor ceteros interesset. Per ei epicuri complectitur, has quodsi accumsan consetetur eu. Vis at meis quando, ne nec ullum instructior. Vel dolore alienum explicari et, hinc inermis corpora vel an, nominati inciderint eam ad. Cum ex dolor malorum vituperata, cu possit equidem accusata cum.&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;wrapText&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;styleClass&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Seq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-primary&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;xs12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sm6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lg6&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;stage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JFXApp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PrimaryStage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fextile&quot;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;800&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;600&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// use fextile.Scene instead of scalafx.scene.Scene
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;root&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sample2&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample2.scala&quot;&gt;Sample2.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;次のサンプルではiOSのUINavigationControllerのように、1つの画面から左から右へとより詳細な情報を表示するためのコンポーネントを使っています。ボタンを押すと、画面全体が左へスライドし新しい画面が表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-12-13-fextile-sample3.png&quot; alt=&quot;Sample3&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14/src/main/scala/fextile/sample/Sample3.scala&quot;&gt;Sample3.scala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;いまのところこれだけですが、比較的実用的になってきました。これから実際のアプリケーションを実装する過程では、まだ多くのリファクタリングやコンポーネント追加が必要になりますが、簡単なユースケース向けにはひとまず形としてでき上がったかなと思っています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/watermint/Fextile/blob/0.0.14&quot;&gt;Fextile&lt;/a&gt;はMITライセンスにてオープンソースとして公開しておりますので、同じような問題で悩まれている方はぜひお使いいただき、新しい提案もいただければ幸いです。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Play 2.2/ScalaでLogbackの設定をLTSVにする</title>
+   <link href="http://watermint.org/2013/10/09/play-scala-logback-ltsv/"/>
+   <updated>2013-10-09T06:36:00+00:00</updated>
+   <id>http://watermint.org/2013/10/09/play-scala-logback-ltsv</id>
+   <content type="html">&lt;p&gt;趣味のプログラムを&lt;a href=&quot;http://www.playframework.com/documentation/2.2.x/Home&quot;&gt;Play Framework 2.2&lt;/a&gt;とScalaで書いています。趣味のプログラムなので、ログを監視したりするような事はまず無いのですが、あとからプログラムで読みやすいように&lt;a href=&quot;http://ltsv.org/&quot;&gt;LTSV (Labeled Tab-separated Values)&lt;/a&gt;形式で出力する事にしてみました。&lt;/p&gt;
+
+&lt;p&gt;ログの設定は、&lt;code class=&quot;highlighter-rouge&quot;&gt;conf/application-logger.xml&lt;/code&gt;というファイルを作っておけば読み込んで適用してくれます。いろいろ試行錯誤した結果次のような設定で落ち着きました。&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;configuration&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;conversionRule&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;conversionWord=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;coloredLevel&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;converterClass=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;play.api.Logger$ColoredLevel&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;appender&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;FILE&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ch.qos.logback.core.rolling.RollingFileAppender&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;file&amp;gt;&lt;/span&gt;${application.home}/logs/application.log&lt;span class=&quot;nt&quot;&gt;&amp;lt;/file&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;rollingPolicy&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ch.qos.logback.core.rolling.TimeBasedRollingPolicy&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;fileNamePattern&amp;gt;&lt;/span&gt;${application.home}/logs/application.%d{yyyy-MM-dd}.log&lt;span class=&quot;nt&quot;&gt;&amp;lt;/fileNamePattern&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;maxHistory&amp;gt;&lt;/span&gt;14&lt;span class=&quot;nt&quot;&gt;&amp;lt;/maxHistory&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/rollingPolicy&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;encoder&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;charset&amp;gt;&lt;/span&gt;UTF-8&lt;span class=&quot;nt&quot;&gt;&amp;lt;/charset&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;pattern&amp;gt;&lt;/span&gt;time:%date{ISO8601}&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x9;&lt;/span&gt;level:%level&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x9;&lt;/span&gt;logger:%logger&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x9;&lt;/span&gt;thread:%thread&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x9;&lt;/span&gt;msg:%replace(%replace(%message){'\n','\\n'}){'\t',' '}&lt;span class=&quot;ni&quot;&gt;&amp;amp;#x9;&lt;/span&gt;exception:%replace(%replace(%xException{5}){'\n','\\n'}){'\t',' '}%n%nopex&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pattern&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;immediateFlush&amp;gt;&lt;/span&gt;true&lt;span class=&quot;nt&quot;&gt;&amp;lt;/immediateFlush&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/encoder&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/appender&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;appender&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;STDOUT&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ch.qos.logback.core.ConsoleAppender&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;encoder&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;pattern&amp;gt;&lt;/span&gt;%coloredLevel %logger{15} - %message%n%xException{5}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/pattern&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/encoder&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/appender&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;logger&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;play&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;level=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;INFO&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;logger&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;level=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;INFO&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;root&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;level=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ERROR&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;appender-ref&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ref=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;STDOUT&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;appender-ref&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;ref=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;FILE&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/root&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/configuration&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;STDOUTへの出力はデフォルトのままとしています。ファイル&lt;code class=&quot;highlighter-rouge&quot;&gt;${application.home}/logs/application.log&lt;/code&gt;への書き込みのみLTSVとしています。&lt;/p&gt;
+
+&lt;p&gt;最初からログローテーションまでは設定しなくても良いのですが、ちょっと作ってみた。というレベルのプログラムでも意外と長期間動かしっぱなしになってしまった。という事もあるので、あらかじめ設定しておく事にしています。&lt;/p&gt;
+
+&lt;p&gt;ログに含める事ができる情報はLogbackのマニュアルによると&lt;a href=&quot;http://logback.qos.ch/manual/layouts.html#conversionWord&quot;&gt;Conversion Word&lt;/a&gt;で定義されているものが使えるようです。呼び出しもとメソッド名や行番号もとれるようですが、動作速度が犠牲になるようなのでここでは有効にしませんでした。&lt;/p&gt;
+
+&lt;p&gt;Play framework側のプロパティでapplication.home以外に使えるものはないのか情報を探してみましたが、ソースを見たところ(&lt;a href=&quot;https://github.com/playframework/playframework/blob/2.2.x/framework/src/play/src/main/scala/play/api/Logger.scala#L171&quot;&gt;Logger.scala&lt;/a&gt;) application.home以外は特に定義されていませんでした。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WordPressからTumblrへ移行した話</title>
+   <link href="http://watermint.org/2013/09/03/migrate-my-wordpress-blog-to-tumblr/"/>
+   <updated>2013-09-03T07:31:42+00:00</updated>
+   <id>http://watermint.org/2013/09/03/migrate-my-wordpress-blog-to-tumblr</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://watermint.org/post/59378228238/wordpress-tumblr&quot;&gt;WordPressからtumblrへ、日記から文章へ&lt;/a&gt;でも触れた通り、約7.8年&lt;a href=&quot;http://www.sakura.ne.jp/standard.html&quot;&gt;さくらのレンタルサーバ&lt;/a&gt;でWordPressを使ってブログを配信していました。今回はこの移行についての経験をもう少し詳細に記録しておこうと思います。&lt;/p&gt;
+
+&lt;p&gt;WordPressからTumblrへ移行した理由はいくつかあります。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;パフォーマンス&lt;/h2&gt;
+
+&lt;p&gt;表示速度が遅い。&lt;a href=&quot;http://cloudflare.com&quot;&gt;CloudFlare&lt;/a&gt;のようなCDNも利用していましたが、それでも読み込み開始から描画終了までは8〜11秒程度かかっていました。これはWordPressだけが原因ではなくWordPressのWidgetなど多数のプラグイン、複数のドメインから配信される画像、アフィリエイト・分析のためのビーコン、サーバがレンタル共有型ゆえのCPUリソース不足など複合的な原因がありましたので今回大幅に見直しをかけています。&lt;/p&gt;
+
+&lt;p&gt;今回、Tumblrから自動的に配信されるものをのぞき、アフィリエイトなども原則的には付与しない事にしました。ページレイアウトも可能な限りシンプルなものとして、読み込み速度と可読性の向上を目指しています。&lt;/p&gt;
+
+&lt;p&gt;結果的には現在のところ描画終了まで2〜3秒とかなりの高速化が実現できました。なお、利用していたCDNのCloudFlareについてはTumblr側との技術的な相性の問題で利用できないようで使用をあきらめ、Tumblrのみで配信をする事にしました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.quora.com/CloudFlare/Why-has-tumblr-said-that-CloudFlare-is-not-compatible-with-tumblr-Is-CloudFlare-causing-technical-problems-for-tumblr-or-are-there-other-reasons&quot;&gt;http://www.quora.com/CloudFlare/Why-has-tumblr-said-that-CloudFlare-is-not-compatible-with-tumblr-Is-CloudFlare-causing-technical-problems-for-tumblr-or-are-there-other-reasons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;振る舞いを見る限りだと、Tumblr側は定期的に、設定された該当のカスタムドメインのDNSを引いてみて、AレコードがTumblr (66.6.44.4)を向いているかどうかを確認しているようでした。ここで、確認が取れない場合は設定を無効化しているようです。無効化されると watermint.org にアクセスしても、Tumblrのエラーページが切なく表示されるだけになってしまします。&lt;/p&gt;
+
+&lt;p&gt;当初、さくらインターネット側の設定を66.6.44.4に設定しただけでした。イメージ的にはこの設定をして24〜72時間ぐらいすればインターネットに設定が反映されて、うまく行くとおもっていました。ところが72時間経っても変化が無く、あせっていろいろ設定を変えてみたところCloudFlareのDNS設定でAレコードを、Off CloudFlareとして66.6.44.4を向けてみたところほぼリアルタイムで8.8.8.8 (Google Public DNS)なども更新され無事、ドメイン設定切り替えが完了しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;セキュリティー、メンテナンスの問題&lt;/h2&gt;
+
+&lt;p&gt;セキュリティー上の問題。WordPressは普及しているブログエンジンですが、その内部構造がやや複雑で、かつ多数のプラグインを使って構成しているためにそれぞれのコンポーネントにおけるセキュリティー上の問題がありそうで心配でした。あまりWordPressのソース自体をみて何か対策をするという事はありませんでしたが、精神衛生上のコストというイメージでしたが負担がありました。&lt;/p&gt;
+
+&lt;p&gt;実際の作業は単にバージョンアップをするだけとはいえWordPress自身、プラグイン、テーマなど各コンポーネントは比較的バージョンアップサイクルが早いため、精神的な負担が高く感じていました。&lt;/p&gt;
+
+&lt;p&gt;TumblrはCMS含めてのホスティングになるので、運営をほぼTumblr (Yahoo!)に任せる事が出来ますからこの点では非常に負担が軽くなったと思っています。&lt;/p&gt;
+
+&lt;h2 id=&quot;markdown&quot;&gt;Markdownのオーサリング&lt;/h2&gt;
+
+&lt;p&gt;最近、仕事を始め個人的なメモ等もほとんどをMarkdown形式で書くようにしています。そうするとブログ記事等もすべてMarkdownで書きたくなるのですが、WordPressには操作性・互換性の良いオーサリングプラグインが見当たりませんでした。&lt;/p&gt;
+
+&lt;p&gt;WorldPressにMarkdown形式で記事投稿をするという点では、&lt;a href=&quot;http://bywordapp.com&quot;&gt;Byword 2&lt;/a&gt;はかなり有力な候補でした。理由としてはもともとBywordの頃から手元のドキュメント編集に使っており操作性にも慣れていることがあります。&lt;/p&gt;
+
+&lt;p&gt;しかし前述の通りパフォーマンスやセキュリティー／メンテナンスの問題などもありましたので、全体的な見直しをかけることで最終的な選択肢とはなりませんでした。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;既存記事の移行&lt;/h2&gt;
+
+&lt;p&gt;最終的に記事は移行しないと決めたのですが、検討した際の調べたところを紹介しておきます。&lt;/p&gt;
+
+&lt;p&gt;WordPressで運用してきた過去の記事は7.8年でおおよそ500本になっていました。手動で移行するのはかなり面倒な量でした。選択肢としては次の2つの方式を検討していました。&lt;/p&gt;
+
+&lt;p&gt;WordPressにはWordPress eXtended RSS (WXR)という形式で全記事をエクスポートする機能があります。これを、Tumblr API等を使ってTumblrへ移行するスクリプトを書く。Tumblr APIはすでに&lt;a href=&quot;https://github.com/mitukiii/tumblife-for-ruby&quot;&gt;tumblife&lt;/a&gt;をつかってRubyで連携プログラムを書いた事があったのでこれを使えば良いだろうというところまでは検討しました。WXR形式のデータをパースしてTumblrへ流し込む形式にするのがやや面倒だったので一度保留としました。&lt;/p&gt;
+
+&lt;p&gt;次に商用の移行サービスを検討しました。&lt;a href=&quot;https://www.import2.com&quot;&gt;Import2&lt;/a&gt;というサービスがWordPressからTumblrへの移行をしてくれます。Import2は、WordPressとTumblr両方のID/Passwordを入れるとよしなに移行をしてくれるサービスで、サンプルとして10記事分を import2 demo というタグ付きで移行してくれます。WordPress側で画像を管理していた場合はさらにDropboxと連携するとDropbox側に画像を移行してURLなどもよしなに移行してくれるようです。
+10記事分について移行してみたところ、おおむね問題なさそうに見えました。一つ問題があったのは日本語で書いた記事を編集しようとすると ＆#xxxxx; のようにユニコードでエスケープされた形式となってしまっており既存資産の移行という点ではやや難ありでした。サポートに問い合わせをすればなおったかもしれませんでしたが、結果的にはこの選択肢も保留としました。ちなみに、料金プランは500記事移行の場合、100記事〜1,000記事移行の&lt;a href=&quot;https://www.import2.com/tumblr/pricing&quot;&gt;Premiumプラン&lt;/a&gt;となりUSD 49でした。もう少し安かったら勢いで移行していたかもしれません。&lt;/p&gt;
+
+&lt;p&gt;記事を移行する／しないを判断する上で重要だったのはURLまでは移行できないことでした。Tumblrで各記事は「/post/記事ID/任意の文字列」のようなURL構造となるのでWordPressの既存URLをそのまま移行する事は出来ません。このような中途半端な移行かつ、過去の記事もすでに時代遅れとなっていることを勘案して最終的には記事移行をあきらめました。&lt;/p&gt;
+
+&lt;h2 id=&quot;tumblr&quot;&gt;Tumblrに移行してみて&lt;/h2&gt;
+
+&lt;p&gt;読者の立場としてみると、読み込み速度がかなり改善したのでこれは良かったと思っています。記事を書く立場です。WordPressのHTMLエディタで時々思った通りに入力できなくて結局HTMLを直書きするということがありました。
+このあたりがMarkdownで書けるようになったのでかなり安心して書けるようになったと思います。もちろん、Markdownもいろいろ書式を使い始めると表示崩れがおこりがちです。今回からなるべく文体もわかりにくくならない程度に表組などを少なめにして箇条書き中心に書いています。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>写真整理のワークフロー</title>
+   <link href="http://watermint.org/2013/08/26/workflow/"/>
+   <updated>2013-08-26T21:35:00+00:00</updated>
+   <id>http://watermint.org/2013/08/26/workflow</id>
+   <content type="html">&lt;h2 id=&quot;aperturecapture-one&quot;&gt;Aperture中心のワークフローからCapture Oneへ&amp;lt;&lt;/h2&gt;
+
+&lt;p&gt;事の発端はAperture 3のアップデートが異様なまでにiPhoto側に仕様を寄せてきた事です。iCloudを使わせたいのはわかるけどUXまでiPhotoに寄せてくることには不安がありました。またこれに従い、Aperture自体の継続性ってどうなんだろうという疑問もありました。&lt;/p&gt;
+
+&lt;p&gt;Aperture 3.2ぐらいまでは安定して動いていましたが、3.3ぐらいから急にバグらしき挙動が増えて作業に支障がでるようになってくるようになりました。Appleのことだから、コアにするならプロ向けのApertureではなく全製品を取り巻く環境の中心に位置づけたいiPhotoにするでしょう。それでここで見切りを付けて脱Apertureとしようとしたのが今年の1月頃です。&lt;/p&gt;
+
+&lt;p&gt;その頃丁度いくつか製品を評価してCaptureOne 7が良いのではという気持ちになってきました。プレビューと最終イメージ(印刷 or RAW現像後のイメージ)が一致する、ヨーロピアンな色使い、パース調整などとにかく出力の気持ちよさにほれぼれしてこれを中核とすることに決めました。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneは商業カメラに詳しい方ならご存知の通り、デンマークのPhaseOne社がつくる現像ソフトウエアです。PhaseOneといえば、中判デジタルバックなどをすぐ連想されるとおもいますが、まさに商用写真／印刷向けのソリューション群を扱う会社なのです。CaptureOneもまさにそのコンセプトに沿っており、CYMK印刷、テザー撮影(スタジオなどでPCで確認しながら撮影する)などに特化していました。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneはversion 7より、おそらくハイアマチュア向けにかなりコンシューマ市場を意識した作りになっており、ApertureやLightroomでおなじみのカタログ形式(アプリが管理する配下にアプリ経由で写真をインポートし管理下におくような管理形式)の写真管理をサポート。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneはもともとその機能名にもある通り、Sessionというテザーセッション向けのディレクトリベースのファイル管理をベースとしておりカタログ形式はまさにCaptureOne 7での新機能でした。&lt;/p&gt;
+
+&lt;p&gt;最初、2013年1月頃はCaptureOneを中核に据えるため、すべてをCaptureOneのカタログ形式にしようと既存の写真などをすべてカタログ配下に管理しようとしたのですがそこで問題が生じました。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneのカタログは明らかにシングルスレッドでの動作をしており、また、カタログに収容する写真枚数に比例して動作が遅くなる(O(n)で実行時間が長くなる)ため、実用的な収容枚数は1,000枚程度で、10,000枚を超えるとまず、カタログを読み込んで起動するだけで起動の成功率が1/3ぐらいという悲惨な状況でした。&lt;/p&gt;
+
+&lt;p&gt;一眼レフでは月々1,000〜2,000枚程度撮影していますので毎月カタログを分けるようにしました。これで半年ほど運用してみましたが下記のような問題がありました。&lt;/p&gt;
+
+&lt;h2 id=&quot;capture-one-7&quot;&gt;Capture One 7の問題点&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;写真の重複排除ができない。ApertureやLightroomを使っていれば当たり前の機能ですが、CaptureOneにはありません。SDカード/CFカードからの読み込み時に前回取り込みを消していなかったり、途中でCaptureOneがクラッシュするなど途中の状況がわからない場合でも手動ですべて解決せねばならずかなりつらい事がわかりました。&lt;/li&gt;
+  &lt;li&gt;頻繁にクラッシュする。使い方の問題ではあるのでしょうけど、CaptureOneは明らかにクラッシュし過ぎです。また、編集結果を即時にfsyncしないため、クラッシュするといくらか編集が巻き戻ってしまうという残念な状況に遭遇します。&lt;/li&gt;
+  &lt;li&gt;RAW+JPEGや、ムービーに対する対応が貧弱。RAW+JPEGはそもそも管理できず別々の写真として管理されます。ムービーについてはなんちゃってレベルで実装されているにすぎない印象。また、これもムービーの再生などをタイミングを同じくしてクラッシュするので未成熟さを感じます。&lt;/li&gt;
+  &lt;li&gt;かなり処理が遅い。Nikon D800で撮影したデータを扱っているのである程度遅いのは覚悟の上ですが、レーティングやメタデータ編集といった画質とは関係のない操作でもApertureやLightroomと比べれば桁が一つ二つ違うぐらい応答速度が異なります。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一方次のようなこともわかりました。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneでカタログ管理ではなく、セッション管理とすれば処理速度の低下傾向からO(n)ではなく、O(1)になる。CaptureOneのカタログに対する操作は明らかにUIの更新 → Update → UIの更新となっていて、100枚も写真を削除したり移動しようものなら、数十分は制御が帰ってこないという、泣けてくる実装です(すくなくともCaptureOne 7.1.3まででは)。セッション管理とすると、その状況が嘘のように、普通のちょっと重めなアプリとして動作してくれます。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;ワークフロー&lt;/h2&gt;
+
+&lt;p&gt;以上のような問題から、CaptureOneをオーサリングの中核とする事はあきらめて、メモリカードからの取り込み／取捨選択／キーワードの付与はCaptureOneではなくLightroomで、それ以降のポストプロダクション処理はCaptureOneでやることにしました。&lt;/p&gt;
+
+&lt;p&gt;取り込み／取捨選択／キーワード付与をApertureではなくLightroomにしたのは、CaptureOneとの連携のためです。Apertureはカタログ形式、つまり、Apertureが指定したディレクトリ構造しかサポートしませんが、Lightroomは取り込みデータ+XMP(写真メタデータ)をある程度自由にディレクトリ構成をデザインできるため、CaptureOneのセッションディレクトリと共有できるためです。&lt;/p&gt;
+
+&lt;p&gt;Lightroomでのメタデータ編集結果を共有するためにカタログ設定の「変更点をXMPに自動的に書き込む」をオンにしておきます。
+CaptureOne側で該当のファイルをすでに読み込んでいるならば「ファイル」→「メタデータの読み出し」で再読み込みすればXMPファイルからメタデータを取得してくれます。&lt;/p&gt;
+
+&lt;p&gt;現状の写真管理ワークフローについてまとめます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2013-08-26-workflow1.png&quot; alt=&quot;ワークフロー&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SD/CFカードからはLightroomに取り込み、その取り込み先ディレクトリはCaptureOneセッションが利用するディレクトリと共有しておきます(CaptureOne側からセッションお気に入りフォルダに設定する)。&lt;/p&gt;
+
+&lt;p&gt;CaptureOneに読み込まれたら、あとは必要な写真をメタデータ＋フィルタによって絞り込み、編集します。&lt;/p&gt;
+
+&lt;p&gt;ムービーデータについてはCaptureOneに持ち込む前に、LightroomからPremiereのプロジェクトに渡します。Peremiereに渡した後は、音量、手振れ補正などをそれぞれAuditionならびにAfterEffectsなどで行います。タイトルロゴ、字幕なども同様に編集します。&lt;/p&gt;
+
+&lt;p&gt;HDR向けないし、パノラマ写真を時々撮る事があるのですがこれはLightroomから直接ファイルを複数選択してそのように編集するメニューがありますのでそのように編集します。その他高度な編集はPhotoshop側で行います。&lt;/p&gt;
+
+&lt;p&gt;写真管理ソフトウエアにはたいてい印刷サービスが連携されていますが、Lightroom 5とApertureを比べるとデザインテンプレートなどの差でApertureに圧倒的な軍配が上がると思っています。Adobe製品は全体的に、テンプレートとかサンプル・素材が少なく、3rdパーティー製品を買う事が前提となっていますがAppleのそれはある程度高品質なテンプレート・サンプル・素材がそろっており、これだけでも十二分な利用価値があります。Apertureで発注したフォトブックはAppleの決済後、各国の印刷パートナーが印刷して配送するようです。いままでに何回かフォトブックを作っていますが、クオリティー・満足度は非常に高いです。値段はさほど高くないながら、納期も5営業日(首都圏だからかもしれませんがたいてい5営業日ではなく、5日以内に届きます)に届き、色管理も十分にしていない中でもはずれがありません。Lightroomのフォトブックは、これに比べるとかなりいろいろな点をスクラッチから作らざるを得ず、少し敷居が高く感じます。&lt;/p&gt;
+
+&lt;p&gt;オンラインでの写真共有はflickr、everpix、tumblrを使っています。flickrは旧来のproアカウントを継続しているので容量無制限でアップロード可能です。everpixは無料アカウントで利用しています。無料アカウントでは12ヶ月前までの写真が無制限にアップロードできます。招待などいくつかアクションを行う事でこの期間制限は延長されます。月4.99米ドルで無制限になります。flickrからの同期によるアップロードもサポートしていていまはflickrのバックアップ用に使っています。flickrは公開レベルが家族、友達などコンタクト先属性を意識しますが、everpixはアルバムごとに公開URLを作れるなど短期的な画像共有には非常に相性の良いサービスと思っています。その他に、写真共有ではtumblrを使っていますが、これは自分の良いと思う代表的な写真をのせるために使っています。flickrやeverpixは容量無制限という魅力からほぼすべてシャッターを切った写真をアップロードしていますが、ある程度絞り込んだ結果として自分の写真を管理したいという思いからtumblrに写真を載せています。&lt;/p&gt;
+
+&lt;p&gt;flickrならびにtumblrへのアップロードは自作のスクリプトを使っています。flickrアップロードスクリプトを作成したモチベーションは、月々数十ギガのファイルを不安定なネットワーク環境でアップロードする際、既存のアップローダーでは対応ができなかったからです。tumblrについては、EXIF情報からより多くのタグを付与してアップロードしたり、コメントを整形するために使っています。&lt;/p&gt;
+
+&lt;p&gt;写真１枚１枚自体の管理についてですが、このワークフローではxmpファイルが大きな意味を持っています。Lightroomでつけたタグやコメントはそのままtumblrなどに運ばれるように作っています。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;各ソフトウエアの良いところと、悪いところ。&lt;/h2&gt;
+
+&lt;p&gt;1ヶ月このワークフローで写真整理をしてみました。その中ででてきた各ソフトウエアの良いところ、悪いところを整理しておきます。&lt;/p&gt;
+
+&lt;p&gt;Aperture 3 - 手元にあるソフトウエアの中で最も使い勝手がよく作られています。キーボードショートカットのカスタマイズや、選択、ルーペでの拡大捜査など基本的な機能が洗練されていて、派手さはありませんが最も生産的な作業が出来ると思います。一方、課題としてはAppleの方針がころころ変わってしまうために、やや振り回されている感がある事です。&lt;/p&gt;
+
+&lt;p&gt;Capture One 7 - 自動色調補正、現像処理、色調調整、キーストーン調整、ウォーターマークの挿入など仕上がりについて満足のいく結果を安定的に返してくれます。色調などは好みはあるとおもいますが、自動補正の際にあまりハイライトなどが破綻しない傾向があるとおもいます。一方、課題としては操作が重かったり、頻繁にクラッシュすることがあげられます。&lt;/p&gt;
+
+&lt;p&gt;Lightroom 5 - 全体的に軽快に動き、Adobe製品群との連携メニューが豊富なところが売りです。ファイル管理形式が柔軟なところも便利です。一方、課題としてはUI/UXが全体的に未熟なところです。モードによって選択範囲に対する操作の適用範囲が違ったり、Camera Rawなどでは空気を読んで適切な場所にフォーカスをあててくれたりするのにLightroomはそういう配慮がありません。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>WordPressからtumblrへ、日記から文章へ</title>
+   <link href="http://watermint.org/2013/08/24/wordpress-to-tumblr/"/>
+   <updated>2013-08-24T12:00:00+00:00</updated>
+   <id>http://watermint.org/2013/08/24/wordpress-to-tumblr</id>
+   <content type="html">&lt;h2 id=&quot;section&quot;&gt;過去の記事について&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://watermint.org&quot;&gt;watermint.org&lt;/a&gt;は2005年10月からWordPressを使ってブログを配信ならびに更新してきました。今回、メンテナンス性などの観点からWordPressでの配信ならびに更新をやめて、&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;へ移行する事としました。またこれに伴い、現在までに配信してきましたブログ記事についてはいったん公開を終了とし、必要に応じて新しく書き直したものを配信する予定です。&lt;/p&gt;
+
+&lt;p&gt;Tumblrへの移行にあたって、最初既存の記事もそれぞれ&lt;a href=&quot;https://www.import2.com&quot;&gt;Import2&lt;/a&gt;などのサービスを使って移行を検討していました。いくつか問題があったものの、少し時間をかければ技術的には解決できるだろうというところまでは検証を終えました。ここで、既存の記事についてコストをかけて移行する必要があるかどうかについて別途検討を行いました。&lt;/p&gt;
+
+&lt;p&gt;今までの記事は、ガジェット、ライフハック的な内容、旅行や遊びにいった記録などでしたが、それぞれ今見直すと再度これらを新しく皆様に配信するほどの必要性が見当たりませんでした。&lt;/p&gt;
+
+&lt;p&gt;検索キーワード等を見るといまも少なからぬ方々が本ブログにご訪問いただいている点を考慮するとすべてそれらをリンク切れにしてしまうのは少し心苦しいところでした。一方いつまでも、時代遅れとなってしまい場合によっては今では不正確な情報を掲載し続けることはかえってご迷惑をおかけする事になるだろうとの判断から、ご愛読・ご訪問いただいた皆様には申し訳ないと思いながらも、記事の移行はやめることとしました。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;今後の内容について&lt;/h2&gt;
+
+&lt;p&gt;またwatermint.orgは、いくつか技術的ないし執筆においての実験の場として利用していたために、比較的短文の記事が多かったのですが、これらも時代に合わないとの判断からやめていく事にしました。短文での情報発信は&lt;a href=&quot;http://twitter.com/watermint&quot;&gt;@watermint&lt;/a&gt;を中心としたサービスに移行する予定です。&lt;/p&gt;
+
+&lt;p&gt;今後は日記的な記録よりも、数日ないし数週間程度考えて熟成させた文章を中心に掲載するつもりです。&lt;/p&gt;
+
+&lt;p&gt;これまでは時事ネタに反応したブログ記事をいままで何度か書いてきました。こういったPV向上を狙ったような記事は一時的にはたしかにアクセス統計をみるとPVに影響があるのですが、PV向上を狙った釣り記事が氾濫する昨今、あえて本サイトで同じ事をする必要はないと考えました。今後はホットトピックとは無縁の、地味目なテーマを中心に、より深堀した内容を配信できるよう内容を整備していこうと思います。&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

@@ -1,0 +1,51 @@
+<!DOCTYPE html> <html> <head> <link href="http://gmpg.org/xfn/11" rel="profile"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> <title> ディスクイメージファイル(.dmg)をコマンドラインから &middot; watermint.org </title> <link rel="stylesheet" href="/public/watermint.css"> <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/watermint-logo.png"> <link rel="shortcut icon" href="/public/watermint-logo.png"> <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> </head> <body class="theme-base-09"> <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"> <div class="sidebar" id="sidebar"> <div class="sidebar-item"> <p>Travel, camera, photo, and technical things. I work at Dropbox. Thoughts are my own.</p> </div> <nav class="sidebar-nav"> <a class="sidebar-nav-item" href="/">Home</a> <a class="sidebar-nav-item" href="/about/">About</a> <a class="sidebar-nav-item" href="/atom.xml">Feed</a> <a class="sidebar-nav-item" href="https://github.com/watermint">Github</a> <a class="sidebar-nav-item" href="https://www.instagram.com/watermint/">Instagram</a> </nav> <div class="sidebar-item"> <p> &copy; 2005-2017 Takayuki Okazaki </p> </div> </div> <div class="wrap"> <div class="masthead"> <div class="container"> <h3 class="masthead-title"> <a href="/" title="Home">watermint.org</a> <small>- Takayuki Okazaki's note</small> </h3> </div> </div> <div class="container content"> <div class="post"> <h1 class="post-title">ディスクイメージファイル(.dmg)をコマンドラインから</h1> <span class="post-date"> 13th December 2016</span> <p>Macでたくさんのファイルをひとまとめにするのであればzipで圧縮するよりも、ディスクイメージファイルにしたほうが便利なこともあります。zipだと標準では中身を確認するのに毎回どこかに展開しないといけないですし、ファイルの内容を変更するのも面倒です。zip用のツールを使えばおそらくそれらも解決できると思いますが、個人的にはディスクイメージファイル(.dmg)を使うことの方が多いです。</p> <p>ディスクイメージファイルは外付けディスクのようなイメージでマウントして使えます。macOSに標準添付されている「ディスクユーティリティー」ツールを使えばこのイメージファイルを簡単に作ることができます。読み取り専用、読み書き可能、暗号化、圧縮などオプションを選ぶこともできます。</p> <p>終了したプロジェクトのファイル一式は.dmgファイルとしてまとめていますが、まとめたいプロジェクトファイルがたくさんあったり、ワークフローを自動化したいとなってくるとコマンドライン操作を覚えると便利です。</p> <h2 id="section">ディスクイメージファイルの作成</h2> <p><code class="highlighter-rouge">hdiutil</code>コマンドを使うとディスクイメージファイルの作成や設定変更、ディスクイメージファイルのマウント、アンマウントなどさまざま操作可能です。詳しくは<code class="highlighter-rouge">man hdiutil</code>をご参照いただくとして手元での利用例をご紹介します。</p> <p>フォルダ以下にあるサブフォルダをそれぞれ<code class="highlighter-rouge">.dmg</code>として一括変換したい場合に使っているスクリプトです。それぞれ一応暗号化しておこうということで、暗号化用のパスワードを<code class="highlighter-rouge">$HOME/.dmg-password</code>というファイルにあらかじめ格納してあります。パスワードファイルには最後に改行が入らないようにつくっておいてください。</p> <p>あとパーミッションも <code class="highlighter-rouge">chmod 600 $HOME/.dmg-password</code>など他者から読み出せないようにしておきます。そうはいっても、後述しますが一連のプロセスはさほど安全性が高いわけではありませんので「添付ファイルはパスワードつきzipでパスワードは別メールですぐ送信!」とあまり変わらないセキュリティーレベルとお考えいただいていいかと思います。</p> <div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$# </span>-lt 2 <span class="o">]</span>; <span class="k">then
+  </span><span class="nb">echo</span> <span class="nv">$0</span> SRC_DIR DEST_DIR
+  <span class="nb">exit </span>1
+<span class="k">fi
+
+</span><span class="nv">SRC</span><span class="o">=</span><span class="nv">$1</span>
+<span class="nv">DST</span><span class="o">=</span><span class="nv">$2</span>
+<span class="nv">PWD</span><span class="o">=</span><span class="s2">"</span><span class="nv">$HOME</span><span class="s2">/.dmg-password"</span>
+
+<span class="k">if</span> <span class="o">[</span> ! -e <span class="nv">$PWD</span> <span class="o">]</span>; <span class="k">then
+  </span><span class="nb">echo </span>Disk Image password not found
+  <span class="nb">exit </span>2
+<span class="k">fi
+
+for </span>t <span class="k">in</span> <span class="s2">"</span><span class="nv">$SRC</span><span class="s2">"</span>/<span class="k">*</span>; <span class="k">do
+  if</span> <span class="o">[</span> -d <span class="s2">"</span><span class="nv">$t</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+    </span><span class="nb">echo </span>Creating: <span class="nv">$t</span>
+    <span class="nv">n</span><span class="o">=</span><span class="k">$(</span>basename <span class="nv">$t</span><span class="k">)</span>
+    cat <span class="nv">$PWD</span> |                <span class="se">\</span>
+      hdiutil create          <span class="se">\</span>
+        -srcfolder <span class="s2">"</span><span class="nv">$t</span><span class="s2">"</span>       <span class="se">\</span>
+        -fs HFS+              <span class="se">\</span>
+        -encryption AES-128   <span class="se">\</span>
+        -format UDBZ          <span class="se">\</span>
+        -stdinpass            <span class="se">\</span>
+        <span class="s2">"</span><span class="nv">$DST</span><span class="s2">/</span><span class="nv">$n</span><span class="s2">.dmg"</span>
+  <span class="k">fi
+done</span>
+</code></pre> </div> <h2 id="keychain">ディスクイメージファイルのパスワードをKeyChainにプリセットしておく</h2> <p>暗号化しておいたのはいいですが、作成したディスクイメージファイルを開く際にいちいちパスワードを入力するのは面倒です。Finderからダブルクリックしてマウントしようとしたときに聞かれるパスワードダイアログはコピー&amp;ペーストを受け入れてくれないというのもさらに面倒さを増しています。</p> <p><img src="/images/2016-12-13-dmg1.png" alt="パスワードダイアログ"/></p> <p>パスワードをキーチェインに記憶させるというオプションがありますが、あらかじめコマンドラインから記憶させておけばいいという発想です。</p> <p>ディスクイメージファイルに対するパスワードは一般パスワードとして各ディスクイメージファイルのUUIDと対応して管理されています。このUUIDは</p> <div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>hdiutil isencrypted ディスクイメージファイル.dmg
+</code></pre> </div> <p>というように<code class="highlighter-rouge">isencrypted</code>オプションで知ることができます。キーチェインにパスワードを追加するには</p> <div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>security add-generic-password -a <span class="o">(</span>上記のUUID<span class="o">)</span> -D <span class="s2">"disk image password"</span> -s <span class="o">(</span>ファイル名<span class="o">)</span>.dmg -w <span class="o">(</span>パスワード<span class="o">)</span>
+</code></pre> </div> <p>というように実行すればよいでしょう。<code class="highlighter-rouge">security</code>コマンドの大変残念な点は<code class="highlighter-rouge">hdiutil</code>の<code class="highlighter-rouge">-stdinpass</code>のように標準入力からパスワードを受け取る手段がどうやらなさそうな点です。</p> <p>コマンド引数として実行してしまうと、シェルの履歴に残ったり、<code class="highlighter-rouge">ps</code>コマンドなどでパスワードが漏えいしてしまうケースがあります。このような点から上述のように「添付ファイルはパスワードつきzipでパスワードは別メールですぐ送信!」というセキュリティーレベルとたいして変わらないと思っています。</p> <p>さて、上記を合わせて次のようなスクリプトにしてあります。</p> <div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$# </span>-lt 1 <span class="o">]</span>; <span class="k">then
+  </span><span class="nb">echo</span> <span class="nv">$0</span> <span class="o">[</span>dmg file]...
+  <span class="nb">exit </span>1
+<span class="k">fi
+
+</span><span class="nv">PWD</span><span class="o">=</span><span class="nv">$HOME</span>/.dmg-password
+
+<span class="k">for </span>FILE <span class="k">in</span> <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>; <span class="k">do
+  </span><span class="nv">UUID</span><span class="o">=</span><span class="k">$(</span>hdiutil isencrypted <span class="s2">"</span><span class="nv">$FILE</span><span class="s2">"</span> 2&gt;&amp;1 | grep uuid | awk <span class="s1">'{print $2}'</span><span class="k">)</span>
+  <span class="nv">BASE</span><span class="o">=</span><span class="k">$(</span>basename <span class="nv">$FILE</span><span class="k">)</span>
+
+  <span class="nb">echo </span>File: <span class="nv">$BASE</span>
+  <span class="nb">echo </span>UUID: <span class="nv">$UUID</span>
+
+  security add-generic-password -a <span class="nv">$UUID</span> -D <span class="s2">"disk image password"</span> -s <span class="nv">$BASE</span> -w <span class="k">$(</span>cat <span class="nv">$PWD</span><span class="k">)</span>
+<span class="k">done</span>
+</code></pre> </div> <p>このようにキーチェインにパスワードを設定したファイルを開こうとすると次のようにキーチェインからパスワードを取り出していいか確認されます。</p> <p><img src="/images/2016-12-13-dmg2.png" alt="確認ダイアログ"/></p> <p>このダイアログを<code class="highlighter-rouge">security</code>コマンドの<code class="highlighter-rouge">-A</code>オプションでスキップする手段もありますがすべてのアプリケーションに対して許可を出してしまいます。少し面倒ですが、ここは一手間かけておいたほうがいいでしょう。</p> </div> <div class="related"> <h2>Related Posts</h2> <ul class="related-posts"> <li> <a href="/2016/12/31/digital-filing/"> デジタルファイリング - データの整理整頓 <small>- 31st December 2016</small> </a> </li> <li> <a href="/2016/12/15/go-bandwidth-limit-for-multilpe-io/"> Go: 複数のReader/Writerに対する帯域幅制御 <small>- 15th December 2016</small> </a> </li> <li> <a href="/2016/12/14/dmg-and-cli-en/"> Disk image file (.dmg) from command line <small>- 14th December 2016</small> </a> </li> </ul> </div> </div> <div class="container copyright"> &copy; 2005-2017 Takayuki Okazaki </div> </div> <label for="sidebar-checkbox" class="sidebar-toggle"></label> <script>!function(e){var c=e.querySelector(".sidebar-toggle"),r=e.querySelector("#sidebar"),t=e.querySelector("#sidebar-checkbox");e.addEventListener("click",function(e){var n=e.target;t.checked&&!r.contains(n)&&n!==t&&n!==c&&(t.checked=!1)},!1)}(document);</script> <script>!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-769616-6","auto"),ga("send","pageview");</script> </body> </html>
