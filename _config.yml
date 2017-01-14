@@ -32,5 +32,5 @@ author:
   url:                    https://twitter.com/watermint
 
 # Minify
-#jekyll-minifier:
-#  exclude:                'atom.xml'
+jekyll-minifier:
+  exclude:                'atom.xml'
