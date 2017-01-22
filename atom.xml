@@ -15,7 +15,7 @@ layout: null
    <uri>{{ site.author.url }}</uri>
  </author>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit: 7 %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
