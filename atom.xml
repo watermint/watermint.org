@@ -12,7 +12,7 @@ layout: null
  <id>{{ site.url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
-   <uri>{{ site.author.uri }}</uri>
+   <uri>{{ site.author.url }}</uri>
  </author>
 
  {% for post in site.posts %}
