@@ -1,10 +1,7 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -13,8 +10,9 @@
     {% endif %}
   </title>
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/watermint.css">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/watermint-logo.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/public/watermint-logo.png">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <style>{% include watermint.css %}</style>
+
 </head>
