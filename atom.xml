@@ -14,6 +14,7 @@ layout: null
    <name>{{ site.author.name }}</name>
    <uri>{{ site.author.url }}</uri>
  </author>
+ <rights>(c) 2005-{{ site.time | date: '%Y' }} Takayuki Okazaki</rights>
 
  {% for post in site.posts limit: 7 %}
  <entry>
