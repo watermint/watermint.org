@@ -1,7 +1,0 @@
-
-gems:
-  - jekyll-paginate
-  - jekyll-minifier
-
-jekyll-minifier:
-  exclude:                'atom.xml'

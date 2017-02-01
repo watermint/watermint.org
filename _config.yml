@@ -2,7 +2,6 @@
 # Dependencies
 gems:
   - jekyll-paginate
-  - jekyll-minifier
 
 # Permalinks
 permalink:                pretty
@@ -31,6 +30,3 @@ author:
   name:                   Takayuki Okazaki
   url:                    https://twitter.com/watermint
 
-# Minify
-jekyll-minifier:
-  exclude:                'atom.xml'
