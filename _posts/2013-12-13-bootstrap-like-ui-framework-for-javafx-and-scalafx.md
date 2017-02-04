@@ -11,7 +11,6 @@ tags:
 - scala
 - scalafx
 - bootstrap
-- twitter bootstrap
 - framework
 tumblr_url: http://watermint.org/post/69845345116/bootstrap-like-ui-framework-for-javafx-and-scalafx
 ---

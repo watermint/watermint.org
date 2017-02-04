@@ -3,7 +3,6 @@ layout: post
 title: WordPressからtumblrへ、日記から文章へ
 date: '2013-08-24T12:00:00+00:00'
 tags:
-- watermint
 - blog
 - wordpress
 - tumblr

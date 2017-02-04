@@ -3,9 +3,6 @@ layout: post
 title: 'デジタルファイリング - データの整理整頓'
 tags:
 - digital filing
-- digital
-- filing
-- format
 - productivity
 - cloud storage
 - dropbox

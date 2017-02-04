@@ -3,7 +3,6 @@ layout: post
 title: Play 2.2/ScalaでLogbackの設定をLTSVにする
 date: '2013-10-09T06:36:00+00:00'
 tags:
-- play
 - play framework
 - scala
 - logger

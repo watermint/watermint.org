@@ -8,8 +8,6 @@ tags:
 - scala
 - scalafx
 - fextile
-- user interface
-- user experience
 - ui
 - ux
 - design

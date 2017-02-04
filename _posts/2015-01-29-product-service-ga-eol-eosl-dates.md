@@ -5,7 +5,6 @@ tags:
  - ga
  - eol
  - eosl
- - services
  - ruby
  - php
  - java

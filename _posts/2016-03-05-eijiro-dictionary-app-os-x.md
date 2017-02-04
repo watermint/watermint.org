@@ -3,7 +3,6 @@ layout: post
 title: '英辞郎テキストをDictionary.app用に変換'
 date: '2016-03-05T16:07:27+00:00'
 tags:
-- eijiro
 - ruby
 - english
 - dictionary
