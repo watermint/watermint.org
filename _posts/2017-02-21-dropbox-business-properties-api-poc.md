@@ -71,7 +71,12 @@ DROPBOX_TEAM_FILE = ''
 
 
 def list_more_files(client, cursor):
-    chunk = client.files_list_folder_continue(client, cursor)
+    """
+    :type client: dropbox.Dropbox
+    :type cursor: str
+    :rtype: list[dropbox.files.Metadata]
+    """
+    chunk = client.files_list_folder_continue(cursor)
     if chunk.has_more:
         return chunk.entries + list_more_files(client, chunk.cursor)
     else:
@@ -79,6 +84,12 @@ def list_more_files(client, cursor):
 
 
 def list_files(client, path):
+    """
+    :type client: dropbox.Dropbox
+    :type path: str
+    :rtype: list[dropbox.files.Metadata]
+    """
+
     # Set recursive=False because files under shared folders are not listed.
     # call traverse_files for extract files recursively
     chunk = client.files_list_folder(path, recursive=False)
@@ -89,6 +100,11 @@ def list_files(client, path):
 
 
 def traverse_files(client, entries):
+    """
+    :type client: dropbox.Dropbox
+    :type entries: list[dropbox.files.Metadata]
+    :rtype: list[dropbox.files.Metadata]
+    """
     all = []
     for f in entries:
         all.append(f)
@@ -99,6 +115,11 @@ def traverse_files(client, entries):
 
 
 def list_more_members(client, cursor):
+    """
+    :type client: dropbox.DropboxTeam
+    :type cursor: str
+    :rtype: list[dropbox.team.TeamMemberInfo]
+    """
     chunk = client.team_members_list_continue(cursor)
     if chunk.has_more:
         return chunk.members + list_more_members(client, chunk.cursor)
@@ -107,6 +128,10 @@ def list_more_members(client, cursor):
 
 
 def list_members(client):
+    """
+    :type client: dropbox.DropboxTeam
+    :rtype: list[dropbox.team.TeamMemberInfo]
+    """
     chunk = client.team_members_list()
     if chunk.has_more:
         return chunk.members + list_more_members(client, chunk.cursor)
@@ -115,6 +140,9 @@ def list_members(client):
 
 
 def show_properties_templates(client):
+    """
+    :type client: dropbox.DropboxTeam
+    """
     templates = client.team_properties_template_list()
 
     for t in templates.template_ids:
@@ -127,6 +155,11 @@ def show_properties_templates(client):
 
 
 def find_properties_template_id_by_name(client, name):
+    """
+    :type client: dropbox.DropboxTeam
+    :type name: str
+    :rtype: str | None
+    """
     templates = client.team_properties_template_list()
     for t in templates.template_ids:
         template = client.team_properties_template_get(t)
@@ -136,31 +169,41 @@ def find_properties_template_id_by_name(client, name):
     return None
 
 
-def audit_file(client, security_policy_template_id, file):
+def audit_file(client, template_id, file):
+    """
+    :type client: dropbox.Dropbox
+    :type template_id: str
+    :type file: dropbox.files.FileMetadata
+    """
     print "Auditing file: %s" % file.path_display
 
-    meta = client.files_alpha_get_metadata(file.path_lower, include_property_templates=[security_policy_template_id])
+    meta = client.files_alpha_get_metadata(file.path_lower, include_property_templates=[template_id])
     if isinstance(meta, dropbox.files.FileMetadata) and meta.property_groups is not None:
         for p in meta.property_groups:
-            if p.template_id == security_policy_template_id:
+            if p.template_id == template_id:
                 for field in p.fields:
                     print "File[%s] Security Policy: %s = %s" % (file.path_display, field.name, field.value)
 
     # Mark as Confidential for every '.pdf'
     if file.path_lower.endswith('.pdf'):
-        print "Updating security policy: %s : template_id=%s" % (file.path_display, security_policy_template_id)
+        print "Updating security policy: %s : template_id=%s" % (file.path_display, template_id)
         level_field = PropertyField('Level', 'Confidential')
-        prop_group = PropertyGroup(security_policy_template_id, [level_field])
+        prop_group = PropertyGroup(template_id, [level_field])
         client.files_properties_overwrite(file.path_lower, [prop_group])
 
 
-def audit_member(client, security_policy_template_id, member):
+def audit_member(client, template_id, member):
+    """
+    :type client: dropbox.Dropbox
+    :type template_id: str
+    :type member: dropbox.team.TeamMemberInfo
+    """
     print "Auditing files of member: %s" % member.profile.email
 
     files = list_files(client, "")
     for f in files:
         if isinstance(f, dropbox.files.FileMetadata):
-            audit_file(client, security_policy_template_id, f)
+            audit_file(client, template_id, f)
 
 
 if __name__ == '__main__':
@@ -192,3 +235,4 @@ if __name__ == '__main__':
         c = client_team.as_user(m.profile.team_member_id)
         audit_member(c, security_policy_template_id, m)
 ```
+
