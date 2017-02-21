@@ -8,8 +8,9 @@ tags:
  - python
 ---
 
-I wrote sample script of Properties API of Dropbox Business. Properties APIs are alpha release (as of Feb 2017).
-Specification of APIs might change without notice.
+I wrote sample script of Properties API of Dropbox Business in Python.
+
+Note: Properties APIs are alpha release (as of Feb 2017). Specification of APIs might change without notice.
 
 # Properties API
 
