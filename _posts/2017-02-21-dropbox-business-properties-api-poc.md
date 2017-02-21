@@ -58,7 +58,7 @@ To store properties of file/folder, use [/files/properties/add](https://www.drop
 # Code sample
 
 Here is complete code sample of use case of properties APIs.
-This sample expect to store security policy and levels for each files.
+This sample expect to store security policy and levels for each files. This sample code using latest [Dropbox Python SDK](https://github.com/dropbox/dropbox-sdk-python).
 
 ```python
 import dropbox
