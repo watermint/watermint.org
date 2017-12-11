@@ -40,6 +40,15 @@ if (code != null) {
 }
 ```
 
+この例ではApp Key・App Secretをファイルから読み込んでいます。api.appという名前で次のようなJSON形式ファイルを準備しておいてください。
+
+```json
+{
+  "key"    : "App keyと置き換え",
+  "secret" : "App secretと置き換え"
+}
+```
+ 
 大まかな流れとしては次の通りです。
 
 1. 設定情報などを準備 (`DbxRequestConfig`, `DbxAppInfo`)
@@ -68,7 +77,7 @@ authorizeUrl := authCfg.AuthCodeURL(
 	"csrf-stateの文字列",
 	oauth2.SetAuthURLParam("response_type", "code"),
 )
-fmt.Printf("1. Go to " + authorizeUrl);
+fmt.Println("1. Go to " + authorizeUrl);
 fmt.Println("2. Click \"Allow\" (you might have to log in first).");
 fmt.Println("3. Copy the authorization code.");
 fmt.Print("Enter the authorization code here: ");
