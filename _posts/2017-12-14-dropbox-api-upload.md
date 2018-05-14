@@ -4,6 +4,7 @@ title: 'Dropbox API: ファイルのアップロード'
 tags:
  - dropbox
  - dropbox api
+ - api
  - go
 ---
 
