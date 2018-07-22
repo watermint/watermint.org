@@ -1,1 +1,1 @@
-Sitemap: http://watermint.org/sitemap.xml
+Sitemap: https://watermint.org/sitemap.xml
