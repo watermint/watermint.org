@@ -4,7 +4,7 @@
 "10:00:50.9444337","explorer.exe","7812","RegQueryKey","HKCU\Software\Classes","SUCCESS","Query: Name"
 "10:00:50.9445179","explorer.exe","7812","RegQueryKey","HKCU\Software\Classes","SUCCESS","Query: HandleTags, HandleTags: 0x0"
 "10:00:50.9445443","explorer.exe","7812","RegQueryKey","HKCU\Software\Classes","SUCCESS","Query: HandleTags, HandleTags: 0x0"
-</code></pre> <p>For XML, the ProcMon’s XML is like below (UTF-8 with BOM). All data is under tag <code class="highlighter-rouge">&lt;procmon&gt;</code>. That means if you’d like to process this XML with DOM, then that required to expand all data on memory. However, ProcMon’s data tend to grow huge. That could grow up to a few GBs within a few minutes.</p> <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>U+FEFF<span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+</code></pre> <p>For XML, the ProcMon’s XML is like below (UTF-8 with BOM). All data is under tag <code class="language-plaintext highlighter-rouge">&lt;procmon&gt;</code>. That means if you’d like to process this XML with DOM, then that required to expand all data on memory. However, ProcMon’s data tend to grow huge. That could grow up to a few GBs within a few minutes.</p> <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>U+FEFF<span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
 <span class="nt">&lt;procmon&gt;&lt;processlist&gt;&lt;process&gt;</span>
 <span class="nt">&lt;ProcessIndex&gt;</span>1<span class="nt">&lt;/ProcessIndex&gt;</span>
 <span class="nt">&lt;ProcessId&gt;</span>10516<span class="nt">&lt;/ProcessId&gt;</span>
@@ -16,7 +16,7 @@
 ....
 <span class="nt">&lt;/event&gt;</span>
 <span class="nt">&lt;/eventlist&gt;&lt;/procmon&gt;</span>
-</code></pre></div></div> <p>Then, I tried to convert that XML into <a href="http://jsonlines.org/">JSONL format</a> just for tags under <code class="highlighter-rouge">&lt;processlist&gt;</code> and <code class="highlighter-rouge">&lt;eventlist&gt;</code>. Then, we can analyze data with the tool like <a href="https://stedolan.github.io/jq/">jq</a>. To convert ProcMon’s XML, I created a ruby script like below. (Please install gems before run)</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>nokogiri
+</code></pre></div></div> <p>Then, I tried to convert that XML into <a href="http://jsonlines.org/">JSONL format</a> just for tags under <code class="language-plaintext highlighter-rouge">&lt;processlist&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;eventlist&gt;</code>. Then, we can analyze data with the tool like <a href="https://stedolan.github.io/jq/">jq</a>. To convert ProcMon’s XML, I created a ruby script like below. (Please install gems before run)</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>nokogiri
 <span class="nv">$ </span>gem <span class="nb">install </span>activesupport
 </code></pre></div></div> <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/bin/ruby</span>
 
@@ -31,7 +31,7 @@
     <span class="nb">puts</span> <span class="no">Hash</span><span class="p">.</span><span class="nf">from_xml</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="nf">outer_xml</span><span class="p">).</span><span class="nf">to_json</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</code></pre></div></div> <p>Then, run like below. I prefer I split <code class="highlighter-rouge">process</code> and <code class="highlighter-rouge">event</code> after this.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat </span>Logfile.XML | ruby convert.rb <span class="o">&gt;</span> logfile.json
+</code></pre></div></div> <p>Then, run like below. I prefer I split <code class="language-plaintext highlighter-rouge">process</code> and <code class="language-plaintext highlighter-rouge">event</code> after this.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat </span>Logfile.XML | ruby convert.rb <span class="o">&gt;</span> logfile.json
 <span class="nv">$ </span>jq <span class="nt">-c</span> .event logfile.json | <span class="nb">grep</span> <span class="nt">-v</span> ^null <span class="o">&gt;</span> event.json
 <span class="nv">$ </span>jq <span class="nt">-c</span> .process logfile.json | <span class="nb">grep</span> <span class="nt">-v</span> ^null <span class="o">&gt;</span> process.json
 </code></pre></div></div> <p>Then, you can analyze like below. (histogram for event result)</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jq .Result event.json | <span class="nb">sort</span> | <span class="nb">uniq</span> <span class="nt">-c</span> | <span class="nb">sort</span> <span class="nt">-n</span>
